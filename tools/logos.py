@@ -33,6 +33,39 @@ def load_sources():
         return list(csv.DictReader(f))
 
 
+def catalogue_rows(catalogue):
+    """(venue, symbol, tradingview) for every instrument in instrument_catalogue.xlsx."""
+    import openpyxl
+
+    wb = openpyxl.load_workbook(catalogue, read_only=True)
+    return [(r[6], r[1], r[3]) for r in list(wb["Catalogue"].iter_rows(values_only=True))[1:] if r[1]]
+
+
+def covered_by_nvstly(venue, symbol, nv):
+    return venue in US_VENUES and (symbol in nv or symbol.replace(".", "-") in nv)
+
+
+def sync_sources(catalogue):
+    """Add catalogue instruments that nvstly does not cover and logo_sources.csv does not list yet."""
+    rows = load_sources()
+    known = {(r["venue"], r["symbol"]) for r in rows}
+    nv = set(open(NVSTLY_INDEX, encoding="utf-8").read().split())
+    new = [{"venue": v, "symbol": s, "name": "", "tradingview": tv, "nvstly_aliases": "", "simple_icons": ""}
+           for v, s, tv in catalogue_rows(catalogue)
+           if (v, s) not in known and not covered_by_nvstly(v, s, nv)]
+    if new:
+        print(f"{len(new)} new tickers without a logo: " + ", ".join(r["tradingview"] for r in new))
+        save_sources(rows + new)
+    return rows + new
+
+
+def save_sources(rows):
+    with open(SOURCES, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+
+
 def own_path(own, venue, symbol):
     return os.path.join(own, venue, symbol.replace(":", "_") + ".png")
 
@@ -141,7 +174,7 @@ def tradingview_logoids(tickers):
     except Exception as e:
         print(f"  screener lookup failed ({e}); falling back to symbol search")
         return {}
-    return {d["s"]: d["d"][0] for d in data.get("data", []) if d["d"] and d["d"][0]}
+    return {d["s"]: d["d"] for d in data.get("data", []) if d["d"]}
 
 
 def tradingview_search_logoid(ticker):
@@ -158,40 +191,75 @@ def tradingview_search_logoid(ticker):
         return None
     for hit in data.get("symbols", []) if isinstance(data, dict) else data:
         name = re.sub(r"</?em>", "", hit.get("symbol", ""))
-        if name.upper() == symbol.upper() and hit.get("logoid"):
-            return hit["logoid"]
+        if name.upper() == symbol.upper():
+            return [hit.get("logoid"), re.sub(r"</?em>", "", hit.get("description", ""))]
     return None
+
+
+def fit_svg(svg):
+    """Make the root <svg> scale to 250x250: give it a viewBox (from its width/height when it has
+    none, else its content stays at its own size in the corner) and replace its width/height."""
+    m = re.search(r"<svg\b[^>]*>", svg)
+    if not m:
+        return svg
+    tag = m.group(0)
+
+    def attr(name):
+        a = re.search(rf'\s{name}\s*=\s*["\']\s*([\d.]+)', tag)
+        return a.group(1) if a else None
+
+    width, height = attr("width"), attr("height") or attr("width")
+    new = re.sub(r'\s(width|height)\s*=\s*("[^"]*"|\'[^\']*\')', "", tag)
+    if width and not re.search(r"\sviewBox\s*=", new):
+        new = new[:4] + f' viewBox="0 0 {width} {height}"' + new[4:]
+    new = new[:4] + f' width="{SIZE}" height="{SIZE}"' + new[4:]
+    return svg[:m.start()] + new + svg[m.end():]
 
 
 def render_svg(page, svg, square=False):
     """Rasterise an SVG to 250x250 in the browser, clipped to a circle like TradingView shows it."""
     from PIL import Image
 
-    svg = re.sub(r"<svg\b", f'<svg width="{SIZE}" height="{SIZE}"', svg, count=1)
+    svg = fit_svg(svg)
     radius = "0" if square else "50%"
     page.set_content(
         "<html><body style='margin:0;background:transparent'>"
         f"<div style='width:{SIZE}px;height:{SIZE}px;border-radius:{radius};overflow:hidden'>"
         f"{svg}</div></body></html>")
+    # an SVG without width, height or viewBox: frame whatever it draws
+    page.evaluate("""() => {
+        const s = document.querySelector('svg');
+        if (s && !s.getAttribute('viewBox')) {
+            const b = s.getBBox();
+            if (b.width && b.height) s.setAttribute('viewBox', `${b.x} ${b.y} ${b.width} ${b.height}`);
+        }
+        if (s) s.style.display = 'block';
+    }""")
     png = page.screenshot(omit_background=True, clip={"x": 0, "y": 0, "width": SIZE, "height": SIZE})
     return Image.open(io.BytesIO(png))
+
+
+def fills_canvas(img):
+    """False when the rendered logo covers only part of the 250x250 canvas (a wedge in a corner)."""
+    bbox = img.convert("RGBA").getchannel("A").getbbox()
+    return bool(bbox) and min(bbox[2] - bbox[0], bbox[3] - bbox[1]) >= SIZE * 0.9
 
 
 def cmd_tradingview(args):
     from playwright.sync_api import sync_playwright
 
-    rows = load_sources()
+    rows = sync_sources(args.catalogue)
     log = load_log(args.own)
     todo = [r for r in rows
             if args.overwrite or not log.get((r["venue"], r["symbol"]), "").startswith("tradingview")]
     if args.keep_existing:
         todo = [r for r in todo if not os.path.exists(own_path(args.own, r["venue"], r["symbol"]))]
     print(f"Looking up {len(todo)} TradingView logo ids ...")
-    logoids = {}
+    found = {}
     for i in range(0, len(todo), 100):
-        logoids.update(tradingview_logoids([r["tradingview"] for r in todo[i:i + 100]]))
+        found.update(tradingview_logoids([r["tradingview"] for r in todo[i:i + 100]]))
 
-    missing = []
+    missing, suspect = [], []
     with sync_playwright() as p:
         try:
             browser = p.chromium.launch(channel="msedge")
@@ -200,7 +268,12 @@ def cmd_tradingview(args):
         page = browser.new_page(viewport={"width": SIZE, "height": SIZE}, device_scale_factor=1)
         for r in todo:
             key = (r["venue"], r["symbol"])
-            logoid = logoids.get(r["tradingview"]) or tradingview_search_logoid(r["tradingview"])
+            hit = found.get(r["tradingview"])
+            if not hit or not hit[0]:
+                hit = tradingview_search_logoid(r["tradingview"]) or hit
+            logoid = hit[0] if hit else None
+            if hit and not r["name"]:
+                r["name"] = hit[1] or r["symbol"]
             if not logoid or logoid.startswith("country/"):
                 missing.append(r)
                 continue
@@ -212,14 +285,25 @@ def cmd_tradingview(args):
                 print(f"  {r['tradingview']}: download failed ({e})")
                 missing.append(r)
                 continue
-            save_png(render_svg(page, svg, args.square), own_path(args.own, *key))
+            os.makedirs(os.path.join(ROOT, "svg"), exist_ok=True)
+            with open(os.path.join(ROOT, "svg", logoid.replace("/", "_") + ".svg"), "w", encoding="utf-8") as f:
+                f.write(svg)
+            img = render_svg(page, svg, args.square)
+            if not fills_canvas(img):
+                suspect.append(r)
+            save_png(img, own_path(args.own, *key))
             log[key] = f"tradingview:{logoid}"
             print(f"  {r['tradingview']:<22} -> {logoid}")
         browser.close()
     save_log(args.own, log)
+    save_sources(rows)
     print(f"Done. {len(todo) - len(missing)} downloaded, {len(missing)} without a TradingView logo:")
     for r in missing:
         print(f"  {r['tradingview']}  {r['name']}")
+    if suspect:
+        print(f"{len(suspect)} logos look cut off, please check:")
+        for r in suspect:
+            print(f"  own/{r['venue']}/{r['symbol'].replace(':', '_')}.png  {r['name']}")
     cmd_placeholders(args)
     cmd_report(args)
 
@@ -266,6 +350,7 @@ def placeholder(name):
 
 
 def cmd_placeholders(args):
+    sync_sources(args.catalogue)
     log = load_log(args.own)
     made = 0
     for row in load_sources():
@@ -273,7 +358,7 @@ def cmd_placeholders(args):
         path = own_path(args.own, *key)
         if os.path.exists(path):
             continue
-        save_png(placeholder(row["name"]), path)
+        save_png(placeholder(row["name"] or row["symbol"].split(":")[-1]), path)
         log[key] = "placeholder"
         made += 1
     save_log(args.own, log)
@@ -283,28 +368,22 @@ def cmd_placeholders(args):
 # ---------------------------------------------------------------- report
 
 def cmd_report(args):
-    import openpyxl
-
     nv = set(open(NVSTLY_INDEX, encoding="utf-8").read().split())
     names = {(r["venue"], r["symbol"]): r["name"] for r in load_sources()}
     log = load_log(args.own)
-    wb = openpyxl.load_workbook(os.path.join(ROOT, "instrument_catalogue.xlsx"), read_only=True)
-    rows = list(wb["Catalogue"].iter_rows(values_only=True))[1:]
     out = []
-    for r in rows:
-        symbol, tv, venue, group = r[1], r[3], r[6], r[12] or ""
+    for venue, symbol, tv in catalogue_rows(args.catalogue):
         key = (venue, symbol)
         if os.path.exists(own_path(args.own, venue, symbol)):
             source = log.get(key, "own")
             status = "placeholder" if source == "placeholder" else "added"
-        elif venue in US_VENUES and (symbol in nv or symbol.replace(".", "-") in nv):
+        elif covered_by_nvstly(venue, symbol, nv):
             status, source = "have", "nvstly"
         else:
             status, source = "missing", ""
         out.append({"status": status, "venue": venue, "symbol": symbol, "tradingview": tv,
                     "name": names.get(key, ""), "source": source,
-                    "file": f"own/{venue}/{symbol.replace(':', '_')}.png" if source and status != "have" else "",
-                    "group": group})
+                    "file": f"own/{venue}/{symbol.replace(':', '_')}.png" if source and status != "have" else ""})
     order = {"missing": 0, "placeholder": 1, "added": 2, "have": 3}
     out.sort(key=lambda o: (order[o["status"]], o["venue"], o["symbol"]))
 
@@ -335,6 +414,8 @@ def cmd_report(args):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--own", default=OWN, help="output folder (default: own/ in this repo)")
+    ap.add_argument("--catalogue", default=os.path.join(ROOT, "instrument_catalogue.xlsx"),
+                    help="instrument_catalogue.xlsx to read tickers from (default: the copy in this repo)")
     sub = ap.add_subparsers(dest="cmd", required=True)
     b = sub.add_parser("build")
     b.add_argument("--nvstly", required=True, help="checkout of github.com/nvstly/icons")

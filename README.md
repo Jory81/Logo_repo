@@ -40,4 +40,17 @@ robocopy own "C:\Users\joryp\Documents\Codex\codex_market_screener\data\logo-lib
 ```
 
 Other commands: `py tools\logos.py placeholders` (fill anything still empty), `py tools\logos.py report`.
-New tickers: add a row to `tools/logo_sources.csv` and run `tradingview` again.
+
+## New tickers
+
+The script reads `instrument_catalogue.xlsx`: every instrument the nvstly set does not cover and that
+has no TradingView logo yet in `own/` gets one. So after adding tickers in the app, point it at the
+app's current catalogue and copy the result again:
+
+```
+py tools\logos.py --catalogue "C:\Users\joryp\Documents\Codex\codex_market_screener\data\instrument_catalogue.xlsx" tradingview
+robocopy own "C:\Users\joryp\Documents\Codex\codex_market_screener\data\logo-library\own" /E /XF sources.csv
+```
+
+Only new tickers are downloaded; new rows are added to `tools/logo_sources.csv` with the company
+name from TradingView.

@@ -285,6 +285,9 @@ def cmd_tradingview(args):
                 print(f"  {r['tradingview']}: download failed ({e})")
                 missing.append(r)
                 continue
+            os.makedirs(os.path.join(ROOT, "svg"), exist_ok=True)
+            with open(os.path.join(ROOT, "svg", logoid.replace("/", "_") + ".svg"), "w", encoding="utf-8") as f:
+                f.write(svg)
             img = render_svg(page, svg, args.square)
             if not fills_canvas(img):
                 suspect.append(r)

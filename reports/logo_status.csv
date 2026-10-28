@@ -1,0 +1,696 @@
+status,venue,symbol,tradingview,name,source,file
+placeholder,LSE,SDR,LSE:SDR,Schroders,placeholder,own/LSE/SDR.png
+added,AMS,AD,EURONEXT:AD,Ahold Delhaize,tradingview:ahold-delhaize,own/AMS/AD.png
+added,AMS,ADYEN,EURONEXT:ADYEN,Adyen,tradingview:adyen,own/AMS/ADYEN.png
+added,AMS,AKZA,EURONEXT:AKZA,Akzo Nobel,tradingview:akzo-nobel,own/AMS/AKZA.png
+added,AMS,BESI,EURONEXT:BESI,BE Semiconductor Industries,tradingview:be-semiconductor-industries,own/AMS/BESI.png
+added,AMS,EURONEXT:ASM,EURONEXT:ASM,ASM International,tradingview:asm-international,own/AMS/EURONEXT_ASM.png
+added,AMS,HEIA,EURONEXT:HEIA,Heineken,tradingview:heineken,own/AMS/HEIA.png
+added,AMS,INGA,EURONEXT:INGA,ING Groep,tradingview:ing,own/AMS/INGA.png
+added,AMS,MT,EURONEXT:MT,ArcelorMittal,tradingview:arcelormittal,own/AMS/MT.png
+added,AMS,PHIA,EURONEXT:PHIA,Philips,tradingview:philips,own/AMS/PHIA.png
+added,ASX,GMG,ASX:GMG,Goodman Group,tradingview:goodman,own/ASX/GMG.png
+added,ASX,LYC,ASX:LYC,Lynas Rare Earths,tradingview:lynas,own/ASX/LYC.png
+added,ASX,PDN,ASX:PDN,Paladin Energy,tradingview:paladin,own/ASX/PDN.png
+added,ASX,PLS,ASX:PLS,Pilbara Minerals,tradingview:pilbara-minerals,own/ASX/PLS.png
+added,ASX,SHL,ASX:SHL,Sonic Healthcare,tradingview:sonic-healthcare,own/ASX/SHL.png
+added,ASX,WDS,ASX:WDS,Woodside Energy,tradingview:woodside-petroleum,own/ASX/WDS.png
+added,BRU,ABI,EURONEXT:ABI,Anheuser-Busch InBev,tradingview:anheuser-busch-inbev,own/BRU/ABI.png
+added,BRU,ELI,EURONEXT:ELI,Elia Group,tradingview:elia,own/BRU/ELI.png
+added,BRU,VGP,EURONEXT:VGP,VGP,tradingview:vgp,own/BRU/VGP.png
+added,BRU,WDP,EURONEXT:WDP,Warehouses De Pauw,tradingview:warehouses-de-pauw,own/BRU/WDP.png
+added,CPH,NKT,OMXCOP:NKT,NKT,tradingview:nkt-a-s,own/CPH/NKT.png
+added,EBS,ABBN,SIX:ABBN,ABB,tradingview:abb,own/EBS/ABBN.png
+added,EBS,CFR,SIX:CFR,Richemont,tradingview:richemont-n,own/EBS/CFR.png
+added,EBS,HOLN,SIX:HOLN,Holcim,tradingview:holcim-n,own/EBS/HOLN.png
+added,EBS,NESN,SIX:NESN,Nestle,tradingview:nestle,own/EBS/NESN.png
+added,EBS,NOVN,SIX:NOVN,Novartis,tradingview:novartis,own/EBS/NOVN.png
+added,EBS,PGHN,SIX:PGHN,Partners Group,tradingview:partners-n,own/EBS/PGHN.png
+added,EBS,RO,SIX:RO,Roche,tradingview:roche,own/EBS/RO.png
+added,EBS,SCHP,SIX:SCHP,Schindler,tradingview:schindler-n,own/EBS/SCHP.png
+added,EBS,SREN,SIX:SREN,Swiss Re,tradingview:swiss-re-n,own/EBS/SREN.png
+added,EBS,UBSG,SIX:UBSG,UBS,tradingview:ubs-group,own/EBS/UBSG.png
+added,EBS,ZURN,SIX:ZURN,Zurich Insurance,tradingview:zurich,own/EBS/ZURN.png
+added,GER,8TRA,XETR:8TRA,Traton,tradingview:traton-se-inh-o-n,own/GER/8TRA.png
+added,GER,ADS,XETR:ADS,adidas,tradingview:adidas,own/GER/ADS.png
+added,GER,ALV,XETR:ALV,Allianz,tradingview:allianz,own/GER/ALV.png
+added,GER,BAS,XETR:BAS,BASF,tradingview:basf,own/GER/BAS.png
+added,GER,BEI,XETR:BEI,Beiersdorf,tradingview:beiersdorf,own/GER/BEI.png
+added,GER,BMW,XETR:BMW,BMW,tradingview:bmw,own/GER/BMW.png
+added,GER,DB1,XETR:DB1,Deutsche Boerse,tradingview:deutsche-boerse-na-o-n,own/GER/DB1.png
+added,GER,DBK,XETR:DBK,Deutsche Bank,tradingview:deutsche-bank-ag,own/GER/DBK.png
+added,GER,DHL,XETR:DHL,DHL Group,tradingview:deutsche-post-ag,own/GER/DHL.png
+added,GER,DTG,XETR:DTG,Daimler Truck,tradingview:daimler-truck-hldg-jge-na,own/GER/DTG.png
+added,GER,DWS,XETR:DWS,DWS Group,tradingview:dws-group,own/GER/DWS.png
+added,GER,EOAN,XETR:EOAN,E.ON,tradingview:e-on,own/GER/EOAN.png
+added,GER,EVK,XETR:EVK,Evonik,tradingview:evonik-industries-na-o-n,own/GER/EVK.png
+added,GER,HEI,XETR:HEI,Heidelberg Materials,tradingview:heidelbergcement-i,own/GER/HEI.png
+added,GER,HNR1,XETR:HNR1,Hannover Re,tradingview:hannover-rueck,own/GER/HNR1.png
+added,GER,IFX,XETR:IFX,Infineon,tradingview:infineon-technologies,own/GER/IFX.png
+added,GER,KGX,XETR:KGX,KION Group,tradingview:kion-group-ag,own/GER/KGX.png
+added,GER,LEG,XETR:LEG,LEG Immobilien,tradingview:leg-immobilien-se-na-o-n,own/GER/LEG.png
+added,GER,MBG,XETR:MBG,Mercedes-Benz,tradingview:daimler,own/GER/MBG.png
+added,GER,MUV2,XETR:MUV2,Munich Re,tradingview:munichre,own/GER/MUV2.png
+added,GER,P911,XETR:P911,Porsche,tradingview:porsche-automobil-holding,own/GER/P911.png
+added,GER,PUM,XETR:PUM,Puma,tradingview:puma,own/GER/PUM.png
+added,GER,RHM,XETR:RHM,Rheinmetall,tradingview:rheinmetall-ag,own/GER/RHM.png
+added,GER,RWE,XETR:RWE,RWE,tradingview:rwe,own/GER/RWE.png
+added,GER,SBS,XETR:SBS,Stratec,tradingview:stratec-biomedical-ag,own/GER/SBS.png
+added,GER,SHL,XETR:SHL,Siemens Healthineers,tradingview:siemens-health-ag-na-o-n,own/GER/SHL.png
+added,GER,SIE,XETR:SIE,Siemens,tradingview:siemens,own/GER/SIE.png
+added,GER,TEG,XETR:TEG,TAG Immobilien,tradingview:tag-immobilien-ag,own/GER/TEG.png
+added,GER,VNA,XETR:VNA,Vonovia,tradingview:vonovia,own/GER/VNA.png
+added,GER,VOW3,XETR:VOW3,Volkswagen,tradingview:volkswagen,own/GER/VOW3.png
+added,GER,WAF,XETR:WAF,Siltronic,tradingview:siltronic-ag-na-o-n,own/GER/WAF.png
+added,GER,XETR:DTE,XETR:DTE,Deutsche Telekom,tradingview:deutsche-telekom,own/GER/XETR_DTE.png
+added,GER,XETR:ENR,XETR:ENR,Siemens Energy,tradingview:siemens-energy,own/GER/XETR_ENR.png
+added,GER,XETR:MTX,XETR:MTX,MTU Aero Engines,tradingview:mtu-aero-engines,own/GER/XETR_MTX.png
+added,GER,XETR:NEM,XETR:NEM,Nemetschek,tradingview:nemetschek-se-on,own/GER/XETR_NEM.png
+added,HEL,KNEBV,OMXHEX:KNEBV,Kone,tradingview:kone,own/HEL/KNEBV.png
+added,HEL,NOKIA,OMXHEX:NOKIA,Nokia,tradingview:nokia,own/HEL/NOKIA.png
+added,HKG,1093,HKEX:1093,CSPC Pharmaceutical,tradingview:cspc-pharma,own/HKG/1093.png
+added,HKG,1177,HKEX:1177,Sino Biopharmaceutical,tradingview:sino-biopharm,own/HKG/1177.png
+added,HKG,1211,HKEX:1211,BYD,tradingview:byd-electronic,own/HKG/1211.png
+added,HKG,1288,HKEX:1288,Agricultural Bank of China,tradingview:agricultural-bank-of-china,own/HKG/1288.png
+added,HKG,1299,HKEX:1299,AIA Group,tradingview:aia,own/HKG/1299.png
+added,HKG,1347,HKEX:1347,Hua Hong Semiconductor,tradingview:hua-hong-semi,own/HKG/1347.png
+added,HKG,1378,HKEX:1378,China Hongqiao,tradingview:china-hongqiao-group-ltd,own/HKG/1378.png
+added,HKG,1398,HKEX:1398,ICBC,tradingview:industrial-and-commercial-bank-of-china,own/HKG/1398.png
+added,HKG,175,HKEX:175,Geely Automobile,tradingview:geely-auto,own/HKG/175.png
+added,HKG,1772,HKEX:1772,Ganfeng Lithium,tradingview:ganfeng-lithium,own/HKG/1772.png
+added,HKG,1801,HKEX:1801,Innovent Biologics,tradingview:innovent-bio,own/HKG/1801.png
+added,HKG,1810,HKEX:1810,Xiaomi,tradingview:xiaomi,own/HKG/1810.png
+added,HKG,1913,HKEX:1913,Prada,tradingview:prada-group,own/HKG/1913.png
+added,HKG,2020,HKEX:2020,ANTA Sports,tradingview:anta-sports,own/HKG/2020.png
+added,HKG,2318,HKEX:2318,Ping An Insurance,tradingview:ping-an,own/HKG/2318.png
+added,HKG,2328,HKEX:2328,PICC Property and Casualty,tradingview:picc-property-and-casualty-co,own/HKG/2328.png
+added,HKG,2331,HKEX:2331,Li Ning,tradingview:li-ning,own/HKG/2331.png
+added,HKG,2600,HKEX:2600,Aluminum Corporation of China,tradingview:aluminum-of-china,own/HKG/2600.png
+added,HKG,2628,HKEX:2628,China Life Insurance,tradingview:china-life-insurance-co-ltd,own/HKG/2628.png
+added,HKG,2899,HKEX:2899,Zijin Mining,tradingview:zijin-mining,own/HKG/2899.png
+added,HKG,3328,HKEX:3328,Bank of Communications,tradingview:bank-of-communications,own/HKG/3328.png
+added,HKG,358,HKEX:358,Jiangxi Copper,tradingview:jiangxi-copper-co-ltd,own/HKG/358.png
+added,HKG,3692,HKEX:3692,Hansoh Pharmaceutical,tradingview:hansoh-pharmaceutical-group-co-ltd,own/HKG/3692.png
+added,HKG,386,HKEX:386,Sinopec,tradingview:china-petroleum-and-chemical,own/HKG/386.png
+added,HKG,388,HKEX:388,Hong Kong Exchanges and Clearing,tradingview:hkex,own/HKG/388.png
+added,HKG,3931,HKEX:3931,CALB Group,tradingview:calb-co-ltd,own/HKG/3931.png
+added,HKG,3988,HKEX:3988,Bank of China,tradingview:bank-of-china,own/HKG/3988.png
+added,HKG,700,HKEX:700,Tencent,tradingview:tencent,own/HKG/700.png
+added,HKG,763,HKEX:763,ZTE,tradingview:zte,own/HKG/763.png
+added,HKG,823,HKEX:823,Link REIT,tradingview:link-reit,own/HKG/823.png
+added,HKG,836,HKEX:836,China Resources Power,tradingview:china-resources-power-hldgs-co,own/HKG/836.png
+added,HKG,853,HKEX:853,MicroPort Scientific,tradingview:microport,own/HKG/853.png
+added,HKG,857,HKEX:857,PetroChina,tradingview:petrochina,own/HKG/857.png
+added,HKG,883,HKEX:883,CNOOC,tradingview:cnooc-limited,own/HKG/883.png
+added,HKG,902,HKEX:902,Huaneng Power International,tradingview:huaneng-power,own/HKG/902.png
+added,HKG,914,HKEX:914,Anhui Conch Cement,tradingview:conch-cement,own/HKG/914.png
+added,HKG,939,HKEX:939,China Construction Bank,tradingview:china-construction-bank,own/HKG/939.png
+added,HKG,9633,HKEX:9633,Nongfu Spring,tradingview:nongfu-spring-co-ltd,own/HKG/9633.png
+added,HKG,9696,HKEX:9696,Tianqi Lithium,tradingview:tianqi-lithium-corp,own/HKG/9696.png
+added,HKG,981,HKEX:981,SMIC,tradingview:semiconductor-manufacturing-international,own/HKG/981.png
+added,HKG,992,HKEX:992,Lenovo,tradingview:lenovo,own/HKG/992.png
+added,HKG,9926,HKEX:9926,Akeso,tradingview:akeso,own/HKG/9926.png
+added,JPX,1605,TSE:1605,Inpex,tradingview:inpex,own/JPX/1605.png
+added,JPX,2802,TSE:2802,Ajinomoto,tradingview:ajinomoto,own/JPX/2802.png
+added,JPX,285A,TSE:285A,Kioxia,tradingview:kioxia,own/JPX/285A.png
+added,JPX,3436,TSE:3436,Sumco,tradingview:sumco,own/JPX/3436.png
+added,JPX,4091,TSE:4091,Nippon Sanso,tradingview:nippon-sanso,own/JPX/4091.png
+added,JPX,4188,TSE:4188,Mitsubishi Chemical,tradingview:mitsubishi,own/JPX/4188.png
+added,JPX,4502,TSE:4502,Takeda Pharmaceutical,tradingview:takeda,own/JPX/4502.png
+added,JPX,4568,TSE:4568,Daiichi Sankyo,tradingview:daiichi-sankyo,own/JPX/4568.png
+added,JPX,4612,TSE:4612,Nippon Paint,tradingview:nippon-paint-holdings,own/JPX/4612.png
+added,JPX,4704,TSE:4704,Trend Micro,tradingview:trend-micro,own/JPX/4704.png
+added,JPX,4911,TSE:4911,Shiseido,tradingview:shiseido,own/JPX/4911.png
+added,JPX,5020,TSE:5020,ENEOS,tradingview:eneos-holdings,own/JPX/5020.png
+added,JPX,5401,TSE:5401,Nippon Steel,tradingview:nippon-steel-and-sumitomo-metal,own/JPX/5401.png
+added,JPX,5802,TSE:5802,Sumitomo Electric,tradingview:sumitomo-electric-industries,own/JPX/5802.png
+added,JPX,6146,TSE:6146,Disco,tradingview:disco-corporation,own/JPX/6146.png
+added,JPX,6301,TSE:6301,Komatsu,tradingview:komatsu,own/JPX/6301.png
+added,JPX,6305,TSE:6305,Hitachi Construction Machinery,tradingview:hitachi-construction-machinery,own/JPX/6305.png
+added,JPX,6326,TSE:6326,Kubota,tradingview:kubota,own/JPX/6326.png
+added,JPX,6383,TSE:6383,Daifuku,tradingview:daifuku,own/JPX/6383.png
+added,JPX,6501,TSE:6501,Hitachi,tradingview:hitachi,own/JPX/6501.png
+added,JPX,6503,TSE:6503,Mitsubishi Electric,tradingview:mitsubishi,own/JPX/6503.png
+added,JPX,6506,TSE:6506,Yaskawa Electric,tradingview:yaskawa-electric,own/JPX/6506.png
+added,JPX,6645,TSE:6645,Omron,tradingview:omron,own/JPX/6645.png
+added,JPX,6701,TSE:6701,NEC,tradingview:nec,own/JPX/6701.png
+added,JPX,6702,TSE:6702,Fujitsu,tradingview:fujitsu,own/JPX/6702.png
+added,JPX,6723,TSE:6723,Renesas Electronics,tradingview:renesas-electronics,own/JPX/6723.png
+added,JPX,6752,TSE:6752,Panasonic,tradingview:panasonic,own/JPX/6752.png
+added,JPX,6762,TSE:6762,TDK,tradingview:tdk,own/JPX/6762.png
+added,JPX,6857,TSE:6857,Advantest,tradingview:advantest,own/JPX/6857.png
+added,JPX,6861,TSE:6861,Keyence,tradingview:keyence,own/JPX/6861.png
+added,JPX,6920,TSE:6920,Lasertec,tradingview:lasertec,own/JPX/6920.png
+added,JPX,6954,TSE:6954,Fanuc,tradingview:fanuc,own/JPX/6954.png
+added,JPX,6963,TSE:6963,Rohm,tradingview:rohm,own/JPX/6963.png
+added,JPX,6976,TSE:6976,Taiyo Yuden,tradingview:taiyo-yuden,own/JPX/6976.png
+added,JPX,6981,TSE:6981,Murata Manufacturing,tradingview:murata-manufacturing,own/JPX/6981.png
+added,JPX,7011,TSE:7011,Mitsubishi Heavy Industries,tradingview:mitsubishi,own/JPX/7011.png
+added,JPX,7202,TSE:7202,Isuzu Motors,tradingview:isuzu-motors,own/JPX/7202.png
+added,JPX,7735,TSE:7735,SCREEN Holdings,tradingview:screen-holdings,own/JPX/7735.png
+added,JPX,7974,TSE:7974,Nintendo,tradingview:nintendo,own/JPX/7974.png
+added,JPX,8035,TSE:8035,Tokyo Electron,tradingview:tokyo-electron,own/JPX/8035.png
+added,JPX,8306,TSE:8306,Mitsubishi UFJ Financial,tradingview:mitsubishi-group,own/JPX/8306.png
+added,JPX,8316,TSE:8316,Sumitomo Mitsui Financial,tradingview:sumitomo-mitsui,own/JPX/8316.png
+added,JPX,8411,TSE:8411,Mizuho Financial,tradingview:mizuho,own/JPX/8411.png
+added,JPX,8697,TSE:8697,Japan Exchange Group,tradingview:japan-exchange-group,own/JPX/8697.png
+added,JPX,8766,TSE:8766,Tokio Marine,tradingview:tokio-marine,own/JPX/8766.png
+added,JPX,9341,TSE:9341,GENOVA,tradingview:genova,own/JPX/9341.png
+added,JPX,9697,TSE:9697,Capcom,tradingview:capcom,own/JPX/9697.png
+added,JPX,9983,TSE:9983,Fast Retailing,tradingview:retailing,own/JPX/9983.png
+added,KSC,000660,KRX:000660,SK hynix,tradingview:sk-telecom,own/KSC/000660.png
+added,KSC,005380,KRX:005380,Hyundai Motor,tradingview:hyundai,own/KSC/005380.png
+added,KSC,005490,KRX:005490,POSCO Holdings,tradingview:posco,own/KSC/005490.png
+added,KSC,005930,KRX:005930,Samsung Electronics,tradingview:samsung,own/KSC/005930.png
+added,KSC,006400,KRX:006400,Samsung SDI,tradingview:samsung,own/KSC/006400.png
+added,KSC,009150,KRX:009150,Samsung Electro-Mechanics,tradingview:samsung,own/KSC/009150.png
+added,KSC,034020,KRX:034020,Doosan Enerbility,tradingview:dhico,own/KSC/034020.png
+added,KSC,066570,KRX:066570,LG Electronics,tradingview:lg-display,own/KSC/066570.png
+added,KSC,323410,KRX:323410,KakaoBank,tradingview:kakaobank,own/KSC/323410.png
+added,KSC,373220,KRX:373220,LG Energy Solution,tradingview:lg-energy-solution,own/KSC/373220.png
+added,LIS,EDP,EURONEXT:EDP,EDP,tradingview:energias-br-on-nm,own/LIS/EDP.png
+added,LSE,AAL,LSE:AAL,Anglo American,tradingview:anglo-american,own/LSE/AAL.png
+added,LSE,ANTO,LSE:ANTO,Antofagasta,tradingview:antofagasta,own/LSE/ANTO.png
+added,LSE,AZN,LSE:AZN,AstraZeneca,tradingview:astrazeneca,own/LSE/AZN.png
+added,LSE,BA.,LSE:BA.,BAE Systems,tradingview:bae-systems,own/LSE/BA..png
+added,LSE,BARC,LSE:BARC,Barclays,tradingview:barclays,own/LSE/BARC.png
+added,LSE,BP.,LSE:BP.,BP,tradingview:bp,own/LSE/BP..png
+added,LSE,DGE,LSE:DGE,Diageo,tradingview:diageo,own/LSE/DGE.png
+added,LSE,GLEN,LSE:GLEN,Glencore,tradingview:glencore,own/LSE/GLEN.png
+added,LSE,GSK,LSE:GSK,GSK,tradingview:glaxosmithkline,own/LSE/GSK.png
+added,LSE,HSBA,LSE:HSBA,HSBC,tradingview:hsbc,own/LSE/HSBA.png
+added,LSE,IHG,LSE:IHG,InterContinental Hotels Group,tradingview:intercontinental-hotels,own/LSE/IHG.png
+added,LSE,LGEN,LSE:LGEN,Legal & General,tradingview:legal-and-general,own/LSE/LGEN.png
+added,LSE,LSEG,LSE:LSEG,London Stock Exchange Group,tradingview:london-stock-exchange,own/LSE/LSEG.png
+added,LSE,NG.,LSE:NG.,National Grid,tradingview:national-grid,own/LSE/NG..png
+added,LSE,ONT,LSE:ONT,Oxford Nanopore,tradingview:oxford-nanopore-technologies-plc-ord-gbp0-0001,own/LSE/ONT.png
+added,LSE,RKT,LSE:RKT,Reckitt Benckiser,tradingview:reckitt,own/LSE/RKT.png
+added,LSE,RR.,LSE:RR.,Rolls-Royce,tradingview:rolls-royce,own/LSE/RR..png
+added,LSE,SGRO,LSE:SGRO,Segro,tradingview:segro-plc,own/LSE/SGRO.png
+added,LSE,SHEL,LSE:SHEL,Shell,tradingview:shell,own/LSE/SHEL.png
+added,LSE,SN.,LSE:SN.,Smith & Nephew,tradingview:smith-and-nephew,own/LSE/SN..png
+added,LSE,SSE,LSE:SSE,SSE,tradingview:sse-plc,own/LSE/SSE.png
+added,LSE,SVT,LSE:SVT,Severn Trent,tradingview:severn-trent,own/LSE/SVT.png
+added,LSE,ULVR,LSE:ULVR,Unilever,tradingview:unilever,own/LSE/ULVR.png
+added,LSE,UU.,LSE:UU.,United Utilities,tradingview:united-utilities-group-plc-ord-5p,own/LSE/UU..png
+added,LSE,VOD,LSE:VOD,Vodafone,tradingview:vodafone,own/LSE/VOD.png
+added,LSE,WPP,LSE:WPP,WPP,tradingview:wpp,own/LSE/WPP.png
+added,MCE,CLNX,BME:CLNX,Cellnex,tradingview:cellnex-telecom,own/MCE/CLNX.png
+added,MCE,IBE,BME:IBE,Iberdrola,tradingview:iberdrola,own/MCE/IBE.png
+added,MCE,ITX,BME:ITX,Inditex,tradingview:inditex,own/MCE/ITX.png
+added,MCE,RED,BME:RED,Redeia,tradingview:red-electrica,own/MCE/RED.png
+added,MCE,SAN,BME:SAN,Banco Santander,tradingview:santander,own/MCE/SAN.png
+added,MIL,ENEL,MIL:ENEL,Enel,tradingview:enel,own/MIL/ENEL.png
+added,MIL,ENI,MIL:ENI,Eni,tradingview:eni,own/MIL/ENI.png
+added,MIL,INW,MIL:INW,Inwit,tradingview:inwit,own/MIL/INW.png
+added,MIL,LDO,MIL:LDO,Leonardo,tradingview:leonardo,own/MIL/LDO.png
+added,MIL,NEXI,MIL:NEXI,Nexi,tradingview:nexi,own/MIL/NEXI.png
+added,MIL,PRY,MIL:PRY,Prysmian,tradingview:prysmian,own/MIL/PRY.png
+added,MIL,STLAM,MIL:STLAM,Stellantis,tradingview:stellantis,own/MIL/STLAM.png
+added,MIL,TRN,MIL:TRN,Terna,tradingview:terna,own/MIL/TRN.png
+added,MIL,UCG,MIL:UCG,UniCredit,tradingview:unicredit,own/MIL/UCG.png
+added,NMS,CBRS,NASDAQ:CBRS,Cerebras Systems,tradingview:cerebras-systems,own/NMS/CBRS.png
+added,NMS,CGNX,NASDAQ:CGNX,Cognex,tradingview:cognex,own/NMS/CGNX.png
+added,NMS,CRWV,NASDAQ:CRWV,CoreWeave,tradingview:coreweave,own/NMS/CRWV.png
+added,NMS,GFS,NASDAQ:GFS,GlobalFoundries,tradingview:globalfoundries,own/NMS/GFS.png
+added,NMS,GLXY,NASDAQ:GLXY,Galaxy Digital,tradingview:galaxy-digital,own/NMS/GLXY.png
+added,NMS,GMAB,NASDAQ:GMAB,Genmab,tradingview:genmab-a-s,own/NMS/GMAB.png
+added,NMS,HAPN,NASDAQ:HAPN,HAPN,tradingview:lending-club,own/NMS/HAPN.png
+added,NMS,MPWR,NASDAQ:MPWR,Monolithic Power Systems,tradingview:monolithic-power-system,own/NMS/MPWR.png
+added,NMS,MXL,NASDAQ:MXL,MaxLinear,tradingview:maxlinear,own/NMS/MXL.png
+added,NMS,NVTS,NASDAQ:NVTS,Navitas Semiconductor,tradingview:navitas-semiconductor,own/NMS/NVTS.png
+added,NMS,ONC,NASDAQ:ONC,BeOne Medicines,tradingview:beigene-ltd,own/NMS/ONC.png
+added,NMS,PTC,NASDAQ:PTC,PTC,tradingview:ptc,own/NMS/PTC.png
+added,NMS,SNDK,NASDAQ:SNDK,Sandisk,tradingview:sandisk,own/NMS/SNDK.png
+added,NMS,SPCX,NASDAQ:SPCX,SpaceX,tradingview:spacex,own/NMS/SPCX.png
+added,NMS,TWST,NASDAQ:TWST,Twist Bioscience,tradingview:twist-bioscience,own/NMS/TWST.png
+added,NMS,WTW,NASDAQ:WTW,Willis Towers Watson,tradingview:willis-towers-watson,own/NMS/WTW.png
+added,NMS,XE,NASDAQ:XE,X-energy,tradingview:x-energy-class-a,own/NMS/XE.png
+added,NMS,XEL,NASDAQ:XEL,Xcel Energy,tradingview:xcel-energy,own/NMS/XEL.png
+added,NMS,ZBRA,NASDAQ:ZBRA,Zebra Technologies,tradingview:zebra,own/NMS/ZBRA.png
+added,NYQ,BDC,NYSE:BDC,Belden,tradingview:belden,own/NYQ/BDC.png
+added,NYQ,BLSH,NYSE:BLSH,Bullish,tradingview:bullish,own/NYQ/BLSH.png
+added,NYQ,CNH,NYSE:CNH,CNH Industrial,tradingview:cnh,own/NYQ/CNH.png
+added,NYQ,CRCL,NYSE:CRCL,Circle Internet Group,tradingview:circle-internet-group-inc,own/NYQ/CRCL.png
+added,NYQ,DX,NYSE:DX,Dynex Capital,tradingview:dynex-capital,own/NYQ/DX.png
+added,NYQ,INFQ,NYSE:INFQ,Infleqtion,tradingview:infleqtion,own/NYQ/INFQ.png
+added,NYQ,JEF,NYSE:JEF,Jefferies Financial Group,tradingview:jefferies-financial,own/NYQ/JEF.png
+added,NYQ,KREF,NYSE:KREF,KKR Real Estate Finance Trust,tradingview:kkr-real-estate-finance-trust-650-series-a-cumulative-redeemable-preferred-stock,own/NYQ/KREF.png
+added,NYQ,MAA,NYSE:MAA,Mid-America Apartment Communities,tradingview:mid-america-apartment-communities,own/NYQ/MAA.png
+added,NYQ,MRSH,NYSE:MRSH,Marsh McLennan,tradingview:marsh-and-mclennan,own/NYQ/MRSH.png
+added,NYQ,NYSE:NEM,NYSE:NEM,Newmont,tradingview:newmont,own/NYQ/NYSE_NEM.png
+added,NYQ,PSA,NYSE:PSA,Public Storage,tradingview:public-storage,own/NYQ/PSA.png
+added,NYQ,STWD,NYSE:STWD,Starwood Property Trust,tradingview:starwood-property-trust,own/NYQ/STWD.png
+added,NYQ,UDR,NYSE:UDR,UDR,tradingview:udr,own/NYQ/UDR.png
+added,NYQ,VNO,NYSE:VNO,Vornado Realty Trust,tradingview:vornado-realty-trust-525-series-m-cumulative-redeemable-preferred-shares-of-beneficial-interest-liquidation-preference-2500-per-share-no-par-value-per-sha,own/NYQ/VNO.png
+added,NYQ,VTR,NYSE:VTR,Ventas,tradingview:ventas,own/NYQ/VTR.png
+added,NYQ,WPC,NYSE:WPC,W. P. Carey,tradingview:w-p-carey,own/NYQ/WPC.png
+added,NYQ,YUM,NYSE:YUM,Yum! Brands,tradingview:yum-brands,own/NYQ/YUM.png
+added,OSL,AKRBP,OSL:AKRBP,Aker BP,tradingview:aker-bp-asa,own/OSL/AKRBP.png
+added,OSL,AUTO,OSL:AUTO,AutoStore,tradingview:autostore-ltd,own/OSL/AUTO.png
+added,OSL,EQNR,OSL:EQNR,Equinor,tradingview:equinor,own/OSL/EQNR.png
+added,OSL,NHY,OSL:NHY,Norsk Hydro,tradingview:norsk-hydro,own/OSL/NHY.png
+added,OSL,YAR,OSL:YAR,Yara International,tradingview:yara-international,own/OSL/YAR.png
+added,PAR,AKE,EURONEXT:AKE,Arkema,tradingview:arkema,own/PAR/AKE.png
+added,PAR,AMUN,EURONEXT:AMUN,Amundi,tradingview:amundi,own/PAR/AMUN.png
+added,PAR,BNP,EURONEXT:BNP,BNP Paribas,tradingview:paribas,own/PAR/BNP.png
+added,PAR,CA,EURONEXT:CA,Carrefour,tradingview:carrefour,own/PAR/CA.png
+added,PAR,CAP,EURONEXT:CAP,Capgemini,tradingview:capgemini,own/PAR/CAP.png
+added,PAR,CS,EURONEXT:CS,AXA,tradingview:axa,own/PAR/CS.png
+added,PAR,DSY,EURONEXT:DSY,Dassault Systemes,tradingview:dassault-systemes,own/PAR/DSY.png
+added,PAR,ENGI,EURONEXT:ENGI,Engie,tradingview:engie,own/PAR/ENGI.png
+added,PAR,ENX,EURONEXT:ENX,Euronext,tradingview:euronext,own/PAR/ENX.png
+added,PAR,EURONEXT:AC,EURONEXT:AC,Accor,tradingview:accor,own/PAR/EURONEXT_AC.png
+added,PAR,EURONEXT:AI,EURONEXT:AI,Air Liquide,tradingview:liquide,own/PAR/EURONEXT_AI.png
+added,PAR,EURONEXT:AIR,EURONEXT:AIR,Airbus,tradingview:airbus,own/PAR/EURONEXT_AIR.png
+added,PAR,EURONEXT:BN,EURONEXT:BN,Danone,tradingview:danone,own/PAR/EURONEXT_BN.png
+added,PAR,EURONEXT:OR,EURONEXT:OR,L'Oreal,tradingview:l-oreal,own/PAR/EURONEXT_OR.png
+added,PAR,EURONEXT:SU,EURONEXT:SU,Schneider Electric,tradingview:schneider,own/PAR/EURONEXT_SU.png
+added,PAR,HO,EURONEXT:HO,Thales,tradingview:thales,own/PAR/HO.png
+added,PAR,KER,EURONEXT:KER,Kering,tradingview:kering,own/PAR/KER.png
+added,PAR,LR,EURONEXT:LR,Legrand,tradingview:legrand,own/PAR/LR.png
+added,PAR,MC,EURONEXT:MC,LVMH,tradingview:lvmh,own/PAR/MC.png
+added,PAR,NEX,EURONEXT:NEX,Nexans,tradingview:nexans,own/PAR/NEX.png
+added,PAR,ORA,EURONEXT:ORA,Orange,tradingview:orange,own/PAR/ORA.png
+added,PAR,PUB,EURONEXT:PUB,Publicis Groupe,tradingview:publicis-groupe-sa,own/PAR/PUB.png
+added,PAR,RI,EURONEXT:RI,Pernod Ricard,tradingview:pernod,own/PAR/RI.png
+added,PAR,RMS,EURONEXT:RMS,Hermes,tradingview:hermes,own/PAR/RMS.png
+added,PAR,RNO,EURONEXT:RNO,Renault,tradingview:renault,own/PAR/RNO.png
+added,PAR,SAF,EURONEXT:SAF,Safran,tradingview:safran,own/PAR/SAF.png
+added,PAR,SOI,EURONEXT:SOI,Soitec,tradingview:soitec,own/PAR/SOI.png
+added,PAR,TTE,EURONEXT:TTE,TotalEnergies,tradingview:total,own/PAR/TTE.png
+added,PAR,URW,EURONEXT:URW,Unibail-Rodamco-Westfield,tradingview:unibail-rodamco-westfield,own/PAR/URW.png
+added,PAR,VIE,EURONEXT:VIE,Veolia,tradingview:veolia-environnement,own/PAR/VIE.png
+added,PAR,WLN,EURONEXT:WLN,Worldline,tradingview:worldline,own/PAR/WLN.png
+added,SES,AJBU,SGX:AJBU,Keppel DC REIT,tradingview:keppel-dc-reit,own/SES/AJBU.png
+added,SES,M44U,SGX:M44U,Mapletree Logistics Trust,tradingview:mapletree-log-tr,own/SES/M44U.png
+added,SES,S68,SGX:S68,Singapore Exchange,tradingview:sgx,own/SES/S68.png
+added,SHH,600019,SSE:600019,Baoshan Iron & Steel,tradingview:baoshan-iron-and-steel,own/SHH/600019.png
+added,SHH,600031,SSE:600031,Sany Heavy Industry,tradingview:sany-heavy-industry-coltd,own/SHH/600031.png
+added,SHH,600111,SSE:600111,China Northern Rare Earth,tradingview:china-northern-rare-earth-high-tech-coltd,own/SHH/600111.png
+added,SHH,600276,SSE:600276,Jiangsu Hengrui Pharmaceuticals,tradingview:jiangsu-hengrui-pharmaceuticals-coltd,own/SHH/600276.png
+added,SHH,600519,SSE:600519,Kweichow Moutai,tradingview:moutai,own/SHH/600519.png
+added,SHH,600584,SSE:600584,JCET Group,tradingview:jcet,own/SHH/600584.png
+added,SHH,600875,SSE:600875,Dongfang Electric,tradingview:dong-fang-electric-mach-co,own/SHH/600875.png
+added,SHH,600900,SSE:600900,China Yangtze Power,tradingview:china-yangtze-power-coltd,own/SHH/600900.png
+added,SHH,601727,SSE:601727,Shanghai Electric,tradingview:shanghai-electric-co-ltd,own/SHH/601727.png
+added,SHH,688012,SSE:688012,Advanced Micro-Fabrication Equipment,tradingview:advanced-micro-fabrication-equipment-china,own/SHH/688012.png
+added,SHH,688041,SSE:688041,Hygon Information Technology,tradingview:hygon-information-technology,own/SHH/688041.png
+added,SHH,688047,SSE:688047,Loongson Technology,tradingview:loongson-technology-limited,own/SHH/688047.png
+added,SHH,688072,SSE:688072,Piotech,tradingview:piotech,own/SHH/688072.png
+added,SHH,688256,SSE:688256,Cambricon Technologies,tradingview:cambricon-technologies-limited,own/SHH/688256.png
+added,SHH,688271,SSE:688271,Shanghai United Imaging Healthcare,tradingview:shanghai-united-imaging-healthcare,own/SHH/688271.png
+added,SHZ,000568,SZSE:000568,Luzhou Laojiao,tradingview:luzhou-lao-jiao-co,own/SHZ/000568.png
+added,SHZ,000858,SZSE:000858,Wuliangye Yibin,tradingview:wuliangye-yibin-co,own/SHZ/000858.png
+added,SHZ,000977,SZSE:000977,Inspur Electronic Information,tradingview:ieit-systems-co-lt,own/SHZ/000977.png
+added,SHZ,002156,SZSE:002156,Tongfu Microelectronics,tradingview:tongfu-microelectr,own/SHZ/002156.png
+added,SHZ,002281,SZSE:002281,Accelink Technologies,tradingview:accelink-technolog,own/SHZ/002281.png
+added,SHZ,002371,SZSE:002371,NAURA Technology,tradingview:naura-technology-g,own/SHZ/002371.png
+added,SHZ,300014,SZSE:300014,EVE Energy,tradingview:eve-energy-co-ltd,own/SHZ/300014.png
+added,SHZ,300124,SZSE:300124,Shenzhen Inovance Technology,tradingview:shenzhen-inovance,own/SHZ/300124.png
+added,SHZ,300308,SZSE:300308,Zhongji Innolight,tradingview:zhongji-innolight,own/SHZ/300308.png
+added,SHZ,300502,SZSE:300502,Eoptolink Technology,tradingview:eoptolink-technolo,own/SHZ/300502.png
+added,SHZ,300750,SZSE:300750,CATL,tradingview:contemporary-amper,own/SHZ/300750.png
+added,SHZ,300760,SZSE:300760,Mindray,tradingview:shenzhen-mindray-b,own/SHZ/300760.png
+added,STO,EPI_A,OMXSTO:EPI_A,Epiroc,tradingview:epiroc-ab-ser-b,own/STO/EPI_A.png
+added,STO,ERIC_B,OMXSTO:ERIC_B,Ericsson,tradingview:ericsson,own/STO/ERIC_B.png
+added,STO,HM_B,OMXSTO:HM_B,H&M,tradingview:h-and-m,own/STO/HM_B.png
+added,STO,MTRS,OMXSTO:MTRS,Munters,tradingview:munters-ab,own/STO/MTRS.png
+added,STO,OMXSTO:EQT,OMXSTO:EQT,EQT,tradingview:eqt-ab,own/STO/OMXSTO_EQT.png
+added,STO,SAAB_B,OMXSTO:SAAB_B,Saab,tradingview:saab-ab-ser-b,own/STO/SAAB_B.png
+added,STO,VOLV_B,OMXSTO:VOLV_B,Volvo,tradingview:volvo-car,own/STO/VOLV_B.png
+added,TAI,2317,TWSE:2317,Hon Hai (Foxconn),tradingview:hon-hai,own/TAI/2317.png
+added,TAI,2327,TWSE:2327,Yageo,tradingview:yageo-regs-gdr,own/TAI/2327.png
+added,TAI,2382,TWSE:2382,Quanta Computer,tradingview:quanta-computer,own/TAI/2382.png
+added,TAI,2408,TWSE:2408,Nanya Technology,tradingview:nan-ya,own/TAI/2408.png
+added,TAI,2454,TWSE:2454,MediaTek,tradingview:mediatek,own/TAI/2454.png
+added,TAI,3231,TWSE:3231,Wistron,tradingview:wistron,own/TAI/3231.png
+added,TAI,4938,TWSE:4938,Pegatron,tradingview:pegatron-regs-gds,own/TAI/4938.png
+added,TAI,6239,TWSE:6239,Powertech Technology,tradingview:powertech-technology,own/TAI/6239.png
+added,TAI,6669,TWSE:6669,Wiwynn,tradingview:wiwynn,own/TAI/6669.png
+added,TOR,AEM,TSX:AEM,Agnico Eagle,tradingview:agnico-eagle-mines,own/TOR/AEM.png
+added,TOR,BAM,TSX:BAM,Brookfield Asset Management,tradingview:brookfield-asset-management,own/TOR/BAM.png
+added,TOR,BMO,TSX:BMO,Bank of Montreal,tradingview:bank-of-montreal,own/TOR/BMO.png
+added,TOR,BN,TSX:BN,Brookfield Corporation,tradingview:brookfield,own/TOR/BN.png
+added,TOR,BNS,TSX:BNS,Scotiabank,tradingview:bank-of-nova-scotia,own/TOR/BNS.png
+added,TOR,CLS,TSX:CLS,Celestica,tradingview:celestica,own/TOR/CLS.png
+added,TOR,CM,TSX:CM,CIBC,tradingview:canadian-imperial-bank-of-commerce,own/TOR/CM.png
+added,TOR,CNQ,TSX:CNQ,Canadian Natural Resources,tradingview:canadian-natural-resources,own/TOR/CNQ.png
+added,TOR,CP,TSX:CP,Canadian Pacific Kansas City,tradingview:canadian-pacific-railway,own/TOR/CP.png
+added,TOR,ENB,TSX:ENB,Enbridge,tradingview:enbridge,own/TOR/ENB.png
+added,TOR,FM,TSX:FM,First Quantum Minerals,tradingview:first-quantum-minerals,own/TOR/FM.png
+added,TOR,MDA,TSX:MDA,MDA Space,tradingview:mda-space-ltd,own/TOR/MDA.png
+added,TOR,NA,TSX:NA,National Bank of Canada,tradingview:national-bank-of-canada,own/TOR/NA.png
+added,TOR,NXE,TSX:NXE,NexGen Energy,tradingview:nexgen-energy,own/TOR/NXE.png
+added,TOR,RY,TSX:RY,Royal Bank of Canada,tradingview:royal-bank-of-canada,own/TOR/RY.png
+added,TOR,SHOP,TSX:SHOP,Shopify,tradingview:shopify,own/TOR/SHOP.png
+added,TOR,TD,TSX:TD,TD Bank,tradingview:toronto-dominion-bank,own/TOR/TD.png
+added,TOR,TRP,TSX:TRP,TC Energy,tradingview:tc-energy,own/TOR/TRP.png
+added,TOR,TSX:CNR,TSX:CNR,Canadian National Railway,tradingview:canadian-national-railways,own/TOR/TSX_CNR.png
+added,TOR,WCN,TSX:WCN,Waste Connections,tradingview:waste-connections-ca,own/TOR/WCN.png
+added,TOR,WPM,TSX:WPM,Wheaton Precious Metals,tradingview:wheaton-precious-metals,own/TOR/WPM.png
+added,WSE,KGH,GPW:KGH,KGHM Polska Miedz,tradingview:kghm,own/WSE/KGH.png
+have,ASE,MSN,AMEX:MSN,,nvstly,
+have,ASE,UEC,AMEX:UEC,,nvstly,
+have,NMS,AAPL,NASDAQ:AAPL,,nvstly,
+have,NMS,ABNB,NASDAQ:ABNB,,nvstly,
+have,NMS,ABSI,NASDAQ:ABSI,,nvstly,
+have,NMS,ADBE,NASDAQ:ADBE,,nvstly,
+have,NMS,ADI,NASDAQ:ADI,,nvstly,
+have,NMS,ADSK,NASDAQ:ADSK,,nvstly,
+have,NMS,AEP,NASDAQ:AEP,,nvstly,
+have,NMS,AGNC,NASDAQ:AGNC,,nvstly,
+have,NMS,ALAB,NASDAQ:ALAB,,nvstly,
+have,NMS,AMAT,NASDAQ:AMAT,,nvstly,
+have,NMS,AMD,NASDAQ:AMD,,nvstly,
+have,NMS,AMGN,NASDAQ:AMGN,,nvstly,
+have,NMS,AMKR,NASDAQ:AMKR,,nvstly,
+have,NMS,AMZN,NASDAQ:AMZN,,nvstly,
+have,NMS,APLD,NASDAQ:APLD,,nvstly,
+have,NMS,ARGX,NASDAQ:ARGX,,nvstly,
+have,NMS,ARM,NASDAQ:ARM,,nvstly,
+have,NMS,ASML,NASDAQ:ASML,,nvstly,
+have,NMS,AVGO,NASDAQ:AVGO,,nvstly,
+have,NMS,BEAM,NASDAQ:BEAM,,nvstly,
+have,NMS,BIDU,NASDAQ:BIDU,,nvstly,
+have,NMS,BKNG,NASDAQ:BKNG,,nvstly,
+have,NMS,BKR,NASDAQ:BKR,,nvstly,
+have,NMS,BNTX,NASDAQ:BNTX,,nvstly,
+have,NMS,BSY,NASDAQ:BSY,,nvstly,
+have,NMS,CDNS,NASDAQ:CDNS,,nvstly,
+have,NMS,CEG,NASDAQ:CEG,,nvstly,
+have,NMS,CG,NASDAQ:CG,,nvstly,
+have,NMS,CHKP,NASDAQ:CHKP,,nvstly,
+have,NMS,CMCSA,NASDAQ:CMCSA,,nvstly,
+have,NMS,CME,NASDAQ:CME,,nvstly,
+have,NMS,COIN,NASDAQ:COIN,,nvstly,
+have,NMS,COST,NASDAQ:COST,,nvstly,
+have,NMS,CRDO,NASDAQ:CRDO,,nvstly,
+have,NMS,CRSP,NASDAQ:CRSP,,nvstly,
+have,NMS,CRWD,NASDAQ:CRWD,,nvstly,
+have,NMS,CSCO,NASDAQ:CSCO,,nvstly,
+have,NMS,CSX,NASDAQ:CSX,,nvstly,
+have,NMS,DDOG,NASDAQ:DDOG,,nvstly,
+have,NMS,EBAY,NASDAQ:EBAY,,nvstly,
+have,NMS,EDIT,NASDAQ:EDIT,,nvstly,
+have,NMS,EQIX,NASDAQ:EQIX,,nvstly,
+have,NMS,EXPE,NASDAQ:EXPE,,nvstly,
+have,NMS,FISV,NASDAQ:FISV,,nvstly,
+have,NMS,FLEX,NASDAQ:FLEX,,nvstly,
+have,NMS,FLNC,NASDAQ:FLNC,,nvstly,
+have,NMS,FTNT,NASDAQ:FTNT,,nvstly,
+have,NMS,GEHC,NASDAQ:GEHC,,nvstly,
+have,NMS,GILD,NASDAQ:GILD,,nvstly,
+have,NMS,GLPI,NASDAQ:GLPI,,nvstly,
+have,NMS,GOOGL,NASDAQ:GOOGL,,nvstly,
+have,NMS,HON,NASDAQ:HON,,nvstly,
+have,NMS,HOOD,NASDAQ:HOOD,,nvstly,
+have,NMS,IBKR,NASDAQ:IBKR,,nvstly,
+have,NMS,ICLR,NASDAQ:ICLR,,nvstly,
+have,NMS,ILMN,NASDAQ:ILMN,,nvstly,
+have,NMS,INTC,NASDAQ:INTC,,nvstly,
+have,NMS,INTU,NASDAQ:INTU,,nvstly,
+have,NMS,IREN,NASDAQ:IREN,,nvstly,
+have,NMS,ISRG,NASDAQ:ISRG,,nvstly,
+have,NMS,JBSS,NASDAQ:JBSS,,nvstly,
+have,NMS,JD,NASDAQ:JD,,nvstly,
+have,NMS,KDP,NASDAQ:KDP,,nvstly,
+have,NMS,KLAC,NASDAQ:KLAC,,nvstly,
+have,NMS,LI,NASDAQ:LI,,nvstly,
+have,NMS,LIN,NASDAQ:LIN,,nvstly,
+have,NMS,LITE,NASDAQ:LITE,,nvstly,
+have,NMS,LRCX,NASDAQ:LRCX,,nvstly,
+have,NMS,MAR,NASDAQ:MAR,,nvstly,
+have,NMS,MCHP,NASDAQ:MCHP,,nvstly,
+have,NMS,MDLZ,NASDAQ:MDLZ,,nvstly,
+have,NMS,MEDP,NASDAQ:MEDP,,nvstly,
+have,NMS,MELI,NASDAQ:MELI,,nvstly,
+have,NMS,META,NASDAQ:META,,nvstly,
+have,NMS,MNST,NASDAQ:MNST,,nvstly,
+have,NMS,MRAM,NASDAQ:MRAM,,nvstly,
+have,NMS,MRVL,NASDAQ:MRVL,,nvstly,
+have,NMS,MSFT,NASDAQ:MSFT,,nvstly,
+have,NMS,MU,NASDAQ:MU,,nvstly,
+have,NMS,NBIS,NASDAQ:NBIS,,nvstly,
+have,NMS,NDAQ,NASDAQ:NDAQ,,nvstly,
+have,NMS,NEXT,NASDAQ:NEXT,,nvstly,
+have,NMS,NFLX,NASDAQ:NFLX,,nvstly,
+have,NMS,NTES,NASDAQ:NTES,,nvstly,
+have,NMS,NTLA,NASDAQ:NTLA,,nvstly,
+have,NMS,NVDA,NASDAQ:NVDA,,nvstly,
+have,NMS,NXPI,NASDAQ:NXPI,,nvstly,
+have,NMS,ON,NASDAQ:ON,,nvstly,
+have,NMS,PACB,NASDAQ:PACB,,nvstly,
+have,NMS,PANW,NASDAQ:PANW,,nvstly,
+have,NMS,PCAR,NASDAQ:PCAR,,nvstly,
+have,NMS,PDD,NASDAQ:PDD,,nvstly,
+have,NMS,PEP,NASDAQ:PEP,,nvstly,
+have,NMS,PLTR,NASDAQ:PLTR,,nvstly,
+have,NMS,POWL,NASDAQ:POWL,,nvstly,
+have,NMS,PYPL,NASDAQ:PYPL,,nvstly,
+have,NMS,QBTS,NASDAQ:QBTS,,nvstly,
+have,NMS,QCOM,NASDAQ:QCOM,,nvstly,
+have,NMS,QS,NASDAQ:QS,,nvstly,
+have,NMS,REG,NASDAQ:REG,,nvstly,
+have,NMS,REGN,NASDAQ:REGN,,nvstly,
+have,NMS,RGLD,NASDAQ:RGLD,,nvstly,
+have,NMS,RGTI,NASDAQ:RGTI,,nvstly,
+have,NMS,RKLB,NASDAQ:RKLB,,nvstly,
+have,NMS,RXRX,NASDAQ:RXRX,,nvstly,
+have,NMS,SBAC,NASDAQ:SBAC,,nvstly,
+have,NMS,SBUX,NASDAQ:SBUX,,nvstly,
+have,NMS,SDGR,NASDAQ:SDGR,,nvstly,
+have,NMS,SLDP,NASDAQ:SLDP,,nvstly,
+have,NMS,SMCI,NASDAQ:SMCI,,nvstly,
+have,NMS,SNPS,NASDAQ:SNPS,,nvstly,
+have,NMS,SNY,NASDAQ:SNY,,nvstly,
+have,NMS,SOFI,NASDAQ:SOFI,,nvstly,
+have,NMS,STLD,NASDAQ:STLD,,nvstly,
+have,NMS,STX,NASDAQ:STX,,nvstly,
+have,NMS,SYM,NASDAQ:SYM,,nvstly,
+have,NMS,TCOM,NASDAQ:TCOM,,nvstly,
+have,NMS,TEAM,NASDAQ:TEAM,,nvstly,
+have,NMS,TER,NASDAQ:TER,,nvstly,
+have,NMS,TLN,NASDAQ:TLN,,nvstly,
+have,NMS,TMUS,NASDAQ:TMUS,,nvstly,
+have,NMS,TPG,NASDAQ:TPG,,nvstly,
+have,NMS,TROW,NASDAQ:TROW,,nvstly,
+have,NMS,TSLA,NASDAQ:TSLA,,nvstly,
+have,NMS,TTWO,NASDAQ:TTWO,,nvstly,
+have,NMS,TXN,NASDAQ:TXN,,nvstly,
+have,NMS,VRTX,NASDAQ:VRTX,,nvstly,
+have,NMS,WBD,NASDAQ:WBD,,nvstly,
+have,NMS,WDAY,NASDAQ:WDAY,,nvstly,
+have,NMS,WDC,NASDAQ:WDC,,nvstly,
+have,NMS,WMT,NASDAQ:WMT,,nvstly,
+have,NMS,ZS,NASDAQ:ZS,,nvstly,
+have,NYQ,A,NYSE:A,,nvstly,
+have,NYQ,AA,NYSE:AA,,nvstly,
+have,NYQ,ABBV,NYSE:ABBV,,nvstly,
+have,NYQ,ABT,NYSE:ABT,,nvstly,
+have,NYQ,ACN,NYSE:ACN,,nvstly,
+have,NYQ,ADC,NYSE:ADC,,nvstly,
+have,NYQ,AGCO,NYSE:AGCO,,nvstly,
+have,NYQ,AIG,NYSE:AIG,,nvstly,
+have,NYQ,AJG,NYSE:AJG,,nvstly,
+have,NYQ,ALB,NYSE:ALB,,nvstly,
+have,NYQ,ALL,NYSE:ALL,,nvstly,
+have,NYQ,AMT,NYSE:AMT,,nvstly,
+have,NYQ,ANET,NYSE:ANET,,nvstly,
+have,NYQ,AON,NYSE:AON,,nvstly,
+have,NYQ,APD,NYSE:APD,,nvstly,
+have,NYQ,APH,NYSE:APH,,nvstly,
+have,NYQ,APO,NYSE:APO,,nvstly,
+have,NYQ,ARE,NYSE:ARE,,nvstly,
+have,NYQ,ARES,NYSE:ARES,,nvstly,
+have,NYQ,ASX,NYSE:ASX,,nvstly,
+have,NYQ,AWK,NYSE:AWK,,nvstly,
+have,NYQ,AXP,NYSE:AXP,,nvstly,
+have,NYQ,B,NYSE:B,,nvstly,
+have,NYQ,BA,NYSE:BA,,nvstly,
+have,NYQ,BABA,NYSE:BABA,,nvstly,
+have,NYQ,BAC,NYSE:BAC,,nvstly,
+have,NYQ,BEN,NYSE:BEN,,nvstly,
+have,NYQ,BHP,NYSE:BHP,,nvstly,
+have,NYQ,BLK,NYSE:BLK,,nvstly,
+have,NYQ,BMY,NYSE:BMY,,nvstly,
+have,NYQ,BSX,NYSE:BSX,,nvstly,
+have,NYQ,BWXT,NYSE:BWXT,,nvstly,
+have,NYQ,BX,NYSE:BX,,nvstly,
+have,NYQ,BXMT,NYSE:BXMT,,nvstly,
+have,NYQ,BXP,NYSE:BXP,,nvstly,
+have,NYQ,C,NYSE:C,,nvstly,
+have,NYQ,CAT,NYSE:CAT,,nvstly,
+have,NYQ,CB,NYSE:CB,,nvstly,
+have,NYQ,CCI,NYSE:CCI,,nvstly,
+have,NYQ,CCJ,NYSE:CCJ,,nvstly,
+have,NYQ,CF,NYSE:CF,,nvstly,
+have,NYQ,CI,NYSE:CI,,nvstly,
+have,NYQ,CIEN,NYSE:CIEN,,nvstly,
+have,NYQ,COHR,NYSE:COHR,,nvstly,
+have,NYQ,COP,NYSE:COP,,nvstly,
+have,NYQ,CPNG,NYSE:CPNG,,nvstly,
+have,NYQ,CRH,NYSE:CRH,,nvstly,
+have,NYQ,CRM,NYSE:CRM,,nvstly,
+have,NYQ,CUBE,NYSE:CUBE,,nvstly,
+have,NYQ,CVX,NYSE:CVX,,nvstly,
+have,NYQ,DE,NYSE:DE,,nvstly,
+have,NYQ,DELL,NYSE:DELL,,nvstly,
+have,NYQ,DGX,NYSE:DGX,,nvstly,
+have,NYQ,DHR,NYSE:DHR,,nvstly,
+have,NYQ,DIS,NYSE:DIS,,nvstly,
+have,NYQ,DLR,NYSE:DLR,,nvstly,
+have,NYQ,DOC,NYSE:DOC,,nvstly,
+have,NYQ,DOW,NYSE:DOW,,nvstly,
+have,NYQ,DUK,NYSE:DUK,,nvstly,
+have,NYQ,EL,NYSE:EL,,nvstly,
+have,NYQ,ELV,NYSE:ELV,,nvstly,
+have,NYQ,EMR,NYSE:EMR,,nvstly,
+have,NYQ,ENR,NYSE:ENR,,nvstly,
+have,NYQ,EOG,NYSE:EOG,,nvstly,
+have,NYQ,EPR,NYSE:EPR,,nvstly,
+have,NYQ,EPRT,NYSE:EPRT,,nvstly,
+have,NYQ,ESS,NYSE:ESS,,nvstly,
+have,NYQ,ETN,NYSE:ETN,,nvstly,
+have,NYQ,ETSY,NYSE:ETSY,,nvstly,
+have,NYQ,EW,NYSE:EW,,nvstly,
+have,NYQ,EXR,NYSE:EXR,,nvstly,
+have,NYQ,FCX,NYSE:FCX,,nvstly,
+have,NYQ,FDX,NYSE:FDX,,nvstly,
+have,NYQ,FNV,NYSE:FNV,,nvstly,
+have,NYQ,FOUR,NYSE:FOUR,,nvstly,
+have,NYQ,FR,NYSE:FR,,nvstly,
+have,NYQ,FRT,NYSE:FRT,,nvstly,
+have,NYQ,GE,NYSE:GE,,nvstly,
+have,NYQ,GEV,NYSE:GEV,,nvstly,
+have,NYQ,GPN,NYSE:GPN,,nvstly,
+have,NYQ,GS,NYSE:GS,,nvstly,
+have,NYQ,HAL,NYSE:HAL,,nvstly,
+have,NYQ,HCA,NYSE:HCA,,nvstly,
+have,NYQ,HLT,NYSE:HLT,,nvstly,
+have,NYQ,HPE,NYSE:HPE,,nvstly,
+have,NYQ,HUBB,NYSE:HUBB,,nvstly,
+have,NYQ,HUM,NYSE:HUM,,nvstly,
+have,NYQ,IBM,NYSE:IBM,,nvstly,
+have,NYQ,ICE,NYSE:ICE,,nvstly,
+have,NYQ,IONQ,NYSE:IONQ,,nvstly,
+have,NYQ,IQV,NYSE:IQV,,nvstly,
+have,NYQ,IRM,NYSE:IRM,,nvstly,
+have,NYQ,ITW,NYSE:ITW,,nvstly,
+have,NYQ,IVZ,NYSE:IVZ,,nvstly,
+have,NYQ,JBL,NYSE:JBL,,nvstly,
+have,NYQ,JNJ,NYSE:JNJ,,nvstly,
+have,NYQ,JPM,NYSE:JPM,,nvstly,
+have,NYQ,KIM,NYSE:KIM,,nvstly,
+have,NYQ,KKR,NYSE:KKR,,nvstly,
+have,NYQ,KMI,NYSE:KMI,,nvstly,
+have,NYQ,KO,NYSE:KO,,nvstly,
+have,NYQ,KRC,NYSE:KRC,,nvstly,
+have,NYQ,LADR,NYSE:LADR,,nvstly,
+have,NYQ,LCII,NYSE:LCII,,nvstly,
+have,NYQ,LEU,NYSE:LEU,,nvstly,
+have,NYQ,LH,NYSE:LH,,nvstly,
+have,NYQ,LHX,NYSE:LHX,,nvstly,
+have,NYQ,LLY,NYSE:LLY,,nvstly,
+have,NYQ,LMT,NYSE:LMT,,nvstly,
+have,NYQ,LNG,NYSE:LNG,,nvstly,
+have,NYQ,MA,NYSE:MA,,nvstly,
+have,NYQ,MCD,NYSE:MCD,,nvstly,
+have,NYQ,MDT,NYSE:MDT,,nvstly,
+have,NYQ,MET,NYSE:MET,,nvstly,
+have,NYQ,MOD,NYSE:MOD,,nvstly,
+have,NYQ,MOS,NYSE:MOS,,nvstly,
+have,NYQ,MP,NYSE:MP,,nvstly,
+have,NYQ,MPC,NYSE:MPC,,nvstly,
+have,NYQ,MRK,NYSE:MRK,,nvstly,
+have,NYQ,MS,NYSE:MS,,nvstly,
+have,NYQ,NEE,NYSE:NEE,,nvstly,
+have,NYQ,NIO,NYSE:NIO,,nvstly,
+have,NYQ,NKE,NYSE:NKE,,nvstly,
+have,NYQ,NLY,NYSE:NLY,,nvstly,
+have,NYQ,NNN,NYSE:NNN,,nvstly,
+have,NYQ,NOC,NYSE:NOC,,nvstly,
+have,NYQ,NOW,NYSE:NOW,,nvstly,
+have,NYQ,NRG,NYSE:NRG,,nvstly,
+have,NYQ,NSC,NYSE:NSC,,nvstly,
+have,NYQ,NTR,NYSE:NTR,,nvstly,
+have,NYQ,NU,NYSE:NU,,nvstly,
+have,NYQ,NUE,NYSE:NUE,,nvstly,
+have,NYQ,NVO,NYSE:NVO,,nvstly,
+have,NYQ,NVT,NYSE:NVT,,nvstly,
+have,NYQ,O,NYSE:O,,nvstly,
+have,NYQ,OHI,NYSE:OHI,,nvstly,
+have,NYQ,OKLO,NYSE:OKLO,,nvstly,
+have,NYQ,OMC,NYSE:OMC,,nvstly,
+have,NYQ,ORCL,NYSE:ORCL,,nvstly,
+have,NYQ,OTIS,NYSE:OTIS,,nvstly,
+have,NYQ,OWL,NYSE:OWL,,nvstly,
+have,NYQ,PFE,NYSE:PFE,,nvstly,
+have,NYQ,PG,NYSE:PG,,nvstly,
+have,NYQ,PGR,NYSE:PGR,,nvstly,
+have,NYQ,PH,NYSE:PH,,nvstly,
+have,NYQ,PINS,NYSE:PINS,,nvstly,
+have,NYQ,PLD,NYSE:PLD,,nvstly,
+have,NYQ,PPG,NYSE:PPG,,nvstly,
+have,NYQ,PRU,NYSE:PRU,,nvstly,
+have,NYQ,PSX,NYSE:PSX,,nvstly,
+have,NYQ,QSR,NYSE:QSR,,nvstly,
+have,NYQ,RACE,NYSE:RACE,,nvstly,
+have,NYQ,RBLX,NYSE:RBLX,,nvstly,
+have,NYQ,REXR,NYSE:REXR,,nvstly,
+have,NYQ,RIO,NYSE:RIO,,nvstly,
+have,NYQ,ROK,NYSE:ROK,,nvstly,
+have,NYQ,RSG,NYSE:RSG,,nvstly,
+have,NYQ,RTX,NYSE:RTX,,nvstly,
+have,NYQ,S,NYSE:S,,nvstly,
+have,NYQ,SAP,NYSE:SAP,,nvstly,
+have,NYQ,SCCO,NYSE:SCCO,,nvstly,
+have,NYQ,SCHW,NYSE:SCHW,,nvstly,
+have,NYQ,SE,NYSE:SE,,nvstly,
+have,NYQ,SES,NYSE:SES,,nvstly,
+have,NYQ,SHW,NYSE:SHW,,nvstly,
+have,NYQ,SLB,NYSE:SLB,,nvstly,
+have,NYQ,SLG,NYSE:SLG,,nvstly,
+have,NYQ,SMR,NYSE:SMR,,nvstly,
+have,NYQ,SNAP,NYSE:SNAP,,nvstly,
+have,NYQ,SNOW,NYSE:SNOW,,nvstly,
+have,NYQ,SO,NYSE:SO,,nvstly,
+have,NYQ,SONY,NYSE:SONY,,nvstly,
+have,NYQ,SPG,NYSE:SPG,,nvstly,
+have,NYQ,SQM,NYSE:SQM,,nvstly,
+have,NYQ,STAG,NYSE:STAG,,nvstly,
+have,NYQ,STM,NYSE:STM,,nvstly,
+have,NYQ,SYK,NYSE:SYK,,nvstly,
+have,NYQ,T,NYSE:T,,nvstly,
+have,NYQ,TEL,NYSE:TEL,,nvstly,
+have,NYQ,TGT,NYSE:TGT,,nvstly,
+have,NYQ,THC,NYSE:THC,,nvstly,
+have,NYQ,THO,NYSE:THO,,nvstly,
+have,NYQ,TM,NYSE:TM,,nvstly,
+have,NYQ,TMO,NYSE:TMO,,nvstly,
+have,NYQ,TRV,NYSE:TRV,,nvstly,
+have,NYQ,TSM,NYSE:TSM,,nvstly,
+have,NYQ,UHS,NYSE:UHS,,nvstly,
+have,NYQ,UMC,NYSE:UMC,,nvstly,
+have,NYQ,UNH,NYSE:UNH,,nvstly,
+have,NYQ,UNP,NYSE:UNP,,nvstly,
+have,NYQ,UPS,NYSE:UPS,,nvstly,
+have,NYQ,V,NYSE:V,,nvstly,
+have,NYQ,VALE,NYSE:VALE,,nvstly,
+have,NYQ,VG,NYSE:VG,,nvstly,
+have,NYQ,VICI,NYSE:VICI,,nvstly,
+have,NYQ,VLO,NYSE:VLO,,nvstly,
+have,NYQ,VRT,NYSE:VRT,,nvstly,
+have,NYQ,VST,NYSE:VST,,nvstly,
+have,NYQ,VZ,NYSE:VZ,,nvstly,
+have,NYQ,WELL,NYSE:WELL,,nvstly,
+have,NYQ,WFC,NYSE:WFC,,nvstly,
+have,NYQ,WGO,NYSE:WGO,,nvstly,
+have,NYQ,WM,NYSE:WM,,nvstly,
+have,NYQ,WMB,NYSE:WMB,,nvstly,
+have,NYQ,WTRG,NYSE:WTRG,,nvstly,
+have,NYQ,XOM,NYSE:XOM,,nvstly,
+have,NYQ,XPEV,NYSE:XPEV,,nvstly,
+have,NYQ,XYZ,NYSE:XYZ,,nvstly,
+have,NYQ,YUMC,NYSE:YUMC,,nvstly,
+have,NYQ,ZBH,NYSE:ZBH,,nvstly,

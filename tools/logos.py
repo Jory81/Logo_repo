@@ -208,9 +208,9 @@ def fit_svg(svg):
         a = re.search(rf'\s{name}\s*=\s*["\']\s*([\d.]+)', tag)
         return a.group(1) if a else None
 
-    width, height = attr("width") or "56", attr("height") or attr("width") or "56"
+    width, height = attr("width"), attr("height") or attr("width")
     new = re.sub(r'\s(width|height)\s*=\s*("[^"]*"|\'[^\']*\')', "", tag)
-    if not re.search(r"\sviewBox\s*=", new):
+    if width and not re.search(r"\sviewBox\s*=", new):
         new = new[:4] + f' viewBox="0 0 {width} {height}"' + new[4:]
     new = new[:4] + f' width="{SIZE}" height="{SIZE}"' + new[4:]
     return svg[:m.start()] + new + svg[m.end():]
@@ -226,8 +226,23 @@ def render_svg(page, svg, square=False):
         "<html><body style='margin:0;background:transparent'>"
         f"<div style='width:{SIZE}px;height:{SIZE}px;border-radius:{radius};overflow:hidden'>"
         f"{svg}</div></body></html>")
+    # an SVG without width, height or viewBox: frame whatever it draws
+    page.evaluate("""() => {
+        const s = document.querySelector('svg');
+        if (s && !s.getAttribute('viewBox')) {
+            const b = s.getBBox();
+            if (b.width && b.height) s.setAttribute('viewBox', `${b.x} ${b.y} ${b.width} ${b.height}`);
+        }
+        if (s) s.style.display = 'block';
+    }""")
     png = page.screenshot(omit_background=True, clip={"x": 0, "y": 0, "width": SIZE, "height": SIZE})
     return Image.open(io.BytesIO(png))
+
+
+def fills_canvas(img):
+    """False when the rendered logo covers only part of the 250x250 canvas (a wedge in a corner)."""
+    bbox = img.convert("RGBA").getchannel("A").getbbox()
+    return bool(bbox) and min(bbox[2] - bbox[0], bbox[3] - bbox[1]) >= SIZE * 0.9
 
 
 def cmd_tradingview(args):
@@ -244,7 +259,7 @@ def cmd_tradingview(args):
     for i in range(0, len(todo), 100):
         found.update(tradingview_logoids([r["tradingview"] for r in todo[i:i + 100]]))
 
-    missing = []
+    missing, suspect = [], []
     with sync_playwright() as p:
         try:
             browser = p.chromium.launch(channel="msedge")
@@ -270,7 +285,10 @@ def cmd_tradingview(args):
                 print(f"  {r['tradingview']}: download failed ({e})")
                 missing.append(r)
                 continue
-            save_png(render_svg(page, svg, args.square), own_path(args.own, *key))
+            img = render_svg(page, svg, args.square)
+            if not fills_canvas(img):
+                suspect.append(r)
+            save_png(img, own_path(args.own, *key))
             log[key] = f"tradingview:{logoid}"
             print(f"  {r['tradingview']:<22} -> {logoid}")
         browser.close()
@@ -279,6 +297,10 @@ def cmd_tradingview(args):
     print(f"Done. {len(todo) - len(missing)} downloaded, {len(missing)} without a TradingView logo:")
     for r in missing:
         print(f"  {r['tradingview']}  {r['name']}")
+    if suspect:
+        print(f"{len(suspect)} logos look cut off, please check:")
+        for r in suspect:
+            print(f"  own/{r['venue']}/{r['symbol'].replace(':', '_')}.png  {r['name']}")
     cmd_placeholders(args)
     cmd_report(args)
 

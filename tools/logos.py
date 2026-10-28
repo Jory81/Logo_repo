@@ -196,11 +196,31 @@ def tradingview_search_logoid(ticker):
     return None
 
 
+def fit_svg(svg):
+    """Make the root <svg> scale to 250x250: give it a viewBox (from its width/height when it has
+    none, else its content stays at its own size in the corner) and replace its width/height."""
+    m = re.search(r"<svg\b[^>]*>", svg)
+    if not m:
+        return svg
+    tag = m.group(0)
+
+    def attr(name):
+        a = re.search(rf'\s{name}\s*=\s*["\']\s*([\d.]+)', tag)
+        return a.group(1) if a else None
+
+    width, height = attr("width") or "56", attr("height") or attr("width") or "56"
+    new = re.sub(r'\s(width|height)\s*=\s*("[^"]*"|\'[^\']*\')', "", tag)
+    if not re.search(r"\sviewBox\s*=", new):
+        new = new[:4] + f' viewBox="0 0 {width} {height}"' + new[4:]
+    new = new[:4] + f' width="{SIZE}" height="{SIZE}"' + new[4:]
+    return svg[:m.start()] + new + svg[m.end():]
+
+
 def render_svg(page, svg, square=False):
     """Rasterise an SVG to 250x250 in the browser, clipped to a circle like TradingView shows it."""
     from PIL import Image
 
-    svg = re.sub(r"<svg\b", f'<svg width="{SIZE}" height="{SIZE}"', svg, count=1)
+    svg = fit_svg(svg)
     radius = "0" if square else "50%"
     page.set_content(
         "<html><body style='margin:0;background:transparent'>"

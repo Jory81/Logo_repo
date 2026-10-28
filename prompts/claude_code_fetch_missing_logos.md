@@ -10,6 +10,9 @@ Add one button to the app's Settings/config tab: "Fetch missing logos". No more,
 New files appear at the next page load; no restart.
 I authorize the TradingView downloads and the writes to that `own\` folder for this button.
 
+## Self-contained
+Build all of the code inside this repo (codex_market_screener). The Logo_repo script below is only a reference: don't import it, download it or depend on it at runtime. The button must keep working if Logo_repo is deleted.
+
 ## Look at my local files first
 My local `data\` folder holds more than GitHub does: `local`, `logo-library` (with `assets`, `catalogue\nvstly`, `own`), `supplements`, `ticker files`, `watchlists`, `instrument_catalogue.xlsx` and so on. Inspect these on disk before deciding how "no logo" is determined. Only read them; change nothing in `data\` except adding new PNGs to `logo-library\own\`.
 

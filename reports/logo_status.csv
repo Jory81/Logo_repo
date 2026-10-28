@@ -1,0 +1,696 @@
+status,venue,symbol,tradingview,name,source,file,group
+placeholder,AMS,AD,EURONEXT:AD,Ahold Delhaize,placeholder,own/AMS/AD.png,FOOD & GENERAL-MERCHANDISE RETAIL
+placeholder,AMS,AKZA,EURONEXT:AKZA,Akzo Nobel,placeholder,own/AMS/AKZA.png,PAINTS & COATINGS
+placeholder,AMS,BESI,EURONEXT:BESI,BE Semiconductor Industries,placeholder,own/AMS/BESI.png,GLOBAL SEMICONDUCTOR EQUIPMENT
+placeholder,AMS,EURONEXT:ASM,EURONEXT:ASM,ASM International,placeholder,own/AMS/EURONEXT_ASM.png,GLOBAL SEMICONDUCTOR EQUIPMENT
+placeholder,AMS,HEIA,EURONEXT:HEIA,Heineken,placeholder,own/AMS/HEIA.png,ALCOHOLIC BEVERAGES
+placeholder,ASX,GMG,ASX:GMG,Goodman Group,placeholder,own/ASX/GMG.png,INDUSTRIAL & LOGISTICS REITS
+placeholder,ASX,LYC,ASX:LYC,Lynas Rare Earths,placeholder,own/ASX/LYC.png,RARE-EARTH PRODUCERS & PROCESSORS
+placeholder,ASX,PDN,ASX:PDN,Paladin Energy,placeholder,own/ASX/PDN.png,URANIUM MINERS
+placeholder,ASX,PLS,ASX:PLS,Pilbara Minerals,placeholder,own/ASX/PLS.png,LITHIUM PRODUCERS
+placeholder,ASX,SHL,ASX:SHL,Sonic Healthcare,placeholder,own/ASX/SHL.png,CLINICAL LABORATORY SERVICES
+placeholder,ASX,WDS,ASX:WDS,Woodside Energy,placeholder,own/ASX/WDS.png,UPSTREAM OIL & GAS E & P
+placeholder,BRU,ELI,EURONEXT:ELI,Elia Group,placeholder,own/BRU/ELI.png,REGULATED ELECTRICITY TRANSMISSION NETWORKS
+placeholder,BRU,VGP,EURONEXT:VGP,VGP,placeholder,own/BRU/VGP.png,INDUSTRIAL & LOGISTICS REITS
+placeholder,BRU,WDP,EURONEXT:WDP,Warehouses De Pauw,placeholder,own/BRU/WDP.png,INDUSTRIAL & LOGISTICS REITS
+placeholder,CPH,NKT,OMXCOP:NKT,NKT,placeholder,own/CPH/NKT.png,ELECTRICAL CABLES
+placeholder,EBS,CFR,SIX:CFR,Richemont,placeholder,own/EBS/CFR.png,LUXURY GOODS
+placeholder,EBS,HOLN,SIX:HOLN,Holcim,placeholder,own/EBS/HOLN.png,CEMENT & AGGREGATES
+placeholder,EBS,NESN,SIX:NESN,Nestle,placeholder,own/EBS/NESN.png,PACKAGED FOODS
+placeholder,EBS,PGHN,SIX:PGHN,Partners Group,placeholder,own/EBS/PGHN.png,ALTERNATIVE ASSET MANAGERS
+placeholder,EBS,RO,SIX:RO,Roche,placeholder,own/EBS/RO.png,GLOBAL LARGE-CAP PHARMACEUTICALS
+placeholder,EBS,SCHP,SIX:SCHP,Schindler,placeholder,own/EBS/SCHP.png,ELEVATORS & ESCALATORS
+placeholder,EBS,SREN,SIX:SREN,Swiss Re,placeholder,own/EBS/SREN.png,GLOBAL REINSURERS
+placeholder,EBS,ZURN,SIX:ZURN,Zurich Insurance,placeholder,own/EBS/ZURN.png,PROPERTY & CASUALTY INSURERS
+placeholder,GER,8TRA,XETR:8TRA,Traton,placeholder,own/GER/8TRA.png,COMMERCIAL VEHICLES & HEAVY TRUCKS
+placeholder,GER,ALV,XETR:ALV,Allianz,placeholder,own/GER/ALV.png,LIFE & MULTILINE INSURERS
+placeholder,GER,BAS,XETR:BAS,BASF,placeholder,own/GER/BAS.png,DIVERSIFIED & SPECIALTY CHEMICALS
+placeholder,GER,BEI,XETR:BEI,Beiersdorf,placeholder,own/GER/BEI.png,BEAUTY & COSMETICS
+placeholder,GER,DB1,XETR:DB1,Deutsche Boerse,placeholder,own/GER/DB1.png,EXCHANGES & MARKET INFRASTRUCTURE
+placeholder,GER,DTG,XETR:DTG,Daimler Truck,placeholder,own/GER/DTG.png,COMMERCIAL VEHICLES & HEAVY TRUCKS
+placeholder,GER,DWS,XETR:DWS,DWS Group,placeholder,own/GER/DWS.png,TRADITIONAL ASSET MANAGERS
+placeholder,GER,EOAN,XETR:EOAN,E.ON,placeholder,own/GER/EOAN.png,EUROPEAN INTEGRATED UTILITIES & RENEWABLES
+placeholder,GER,EVK,XETR:EVK,Evonik,placeholder,own/GER/EVK.png,DIVERSIFIED & SPECIALTY CHEMICALS
+placeholder,GER,HEI,XETR:HEI,Heidelberg Materials,placeholder,own/GER/HEI.png,CEMENT & AGGREGATES
+placeholder,GER,HNR1,XETR:HNR1,Hannover Re,placeholder,own/GER/HNR1.png,GLOBAL REINSURERS
+placeholder,GER,IFX,XETR:IFX,Infineon,placeholder,own/GER/IFX.png,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+placeholder,GER,KGX,XETR:KGX,KION Group,placeholder,own/GER/KGX.png,WAREHOUSE AUTOMATION & ROBOTICS
+placeholder,GER,LEG,XETR:LEG,LEG Immobilien,placeholder,own/GER/LEG.png,EUROPEAN RESIDENTIAL PROPERTY
+placeholder,GER,MBG,XETR:MBG,Mercedes-Benz,placeholder,own/GER/MBG.png,PREMIUM & LUXURY AUTOMAKERS
+placeholder,GER,MUV2,XETR:MUV2,Munich Re,placeholder,own/GER/MUV2.png,GLOBAL REINSURERS
+placeholder,GER,RHM,XETR:RHM,Rheinmetall,placeholder,own/GER/RHM.png,DEFENSE PRIMES & MISSION SYSTEMS
+placeholder,GER,RWE,XETR:RWE,RWE,placeholder,own/GER/RWE.png,EUROPEAN INTEGRATED UTILITIES & RENEWABLES
+placeholder,GER,SBS,XETR:SBS,Stratec,placeholder,own/GER/SBS.png,LIFE-SCIENCE TOOLS & SEQUENCING & DIAGNOSTIC PLATFORMS
+placeholder,GER,SHL,XETR:SHL,Siemens Healthineers,placeholder,own/GER/SHL.png,DIAGNOSTIC IMAGING & PATIENT-MONITORING EQUIPMENT
+placeholder,GER,TEG,XETR:TEG,TAG Immobilien,placeholder,own/GER/TEG.png,EUROPEAN RESIDENTIAL PROPERTY
+placeholder,GER,VNA,XETR:VNA,Vonovia,placeholder,own/GER/VNA.png,EUROPEAN RESIDENTIAL PROPERTY
+placeholder,GER,WAF,XETR:WAF,Siltronic,placeholder,own/GER/WAF.png,SEMICONDUCTOR WAFERS & ENGINEERED SUBSTRATES
+placeholder,GER,XETR:ENR,XETR:ENR,Siemens Energy,placeholder,own/GER/XETR_ENR.png,POWER GENERATION & GRID EQUIPMENT
+placeholder,GER,XETR:MTX,XETR:MTX,MTU Aero Engines,placeholder,own/GER/XETR_MTX.png,COMMERCIAL AEROSPACE ENGINES & SYSTEMS
+placeholder,GER,XETR:NEM,XETR:NEM,Nemetschek,placeholder,own/GER/XETR_NEM.png,EDA & ENGINEERING SOFTWARE
+placeholder,HEL,KNEBV,OMXHEX:KNEBV,Kone,placeholder,own/HEL/KNEBV.png,ELEVATORS & ESCALATORS
+placeholder,HKG,1093,HKEX:1093,CSPC Pharmaceutical,placeholder,own/HKG/1093.png,CHINA DOMESTIC PHARMACEUTICALS & BIOTECH
+placeholder,HKG,1177,HKEX:1177,Sino Biopharmaceutical,placeholder,own/HKG/1177.png,CHINA DOMESTIC PHARMACEUTICALS & BIOTECH
+placeholder,HKG,1211,HKEX:1211,BYD,placeholder,own/HKG/1211.png,EV MANUFACTURERS
+placeholder,HKG,1288,HKEX:1288,Agricultural Bank of China,placeholder,own/HKG/1288.png,CHINA BANKS
+placeholder,HKG,1299,HKEX:1299,AIA Group,placeholder,own/HKG/1299.png,LIFE & MULTILINE INSURERS
+placeholder,HKG,1347,HKEX:1347,Hua Hong Semiconductor,placeholder,own/HKG/1347.png,PURE-PLAY SEMICONDUCTOR FOUNDRIES
+placeholder,HKG,1378,HKEX:1378,China Hongqiao,placeholder,own/HKG/1378.png,ALUMINUM PRODUCERS
+placeholder,HKG,1398,HKEX:1398,ICBC,placeholder,own/HKG/1398.png,CHINA BANKS
+placeholder,HKG,175,HKEX:175,Geely Automobile,placeholder,own/HKG/175.png,DIVERSIFIED MASS-MARKET AUTO OEMS
+placeholder,HKG,1772,HKEX:1772,Ganfeng Lithium,placeholder,own/HKG/1772.png,LITHIUM PRODUCERS
+placeholder,HKG,1801,HKEX:1801,Innovent Biologics,placeholder,own/HKG/1801.png,CHINA DOMESTIC PHARMACEUTICALS & BIOTECH
+placeholder,HKG,1913,HKEX:1913,Prada,placeholder,own/HKG/1913.png,LUXURY GOODS
+placeholder,HKG,2318,HKEX:2318,Ping An Insurance,placeholder,own/HKG/2318.png,LIFE & MULTILINE INSURERS
+placeholder,HKG,2328,HKEX:2328,PICC Property and Casualty,placeholder,own/HKG/2328.png,PROPERTY & CASUALTY INSURERS
+placeholder,HKG,2899,HKEX:2899,Zijin Mining,placeholder,own/HKG/2899.png,COPPER MINERS
+placeholder,HKG,3328,HKEX:3328,Bank of Communications,placeholder,own/HKG/3328.png,CHINA BANKS
+placeholder,HKG,358,HKEX:358,Jiangxi Copper,placeholder,own/HKG/358.png,COPPER MINERS
+placeholder,HKG,3692,HKEX:3692,Hansoh Pharmaceutical,placeholder,own/HKG/3692.png,CHINA DOMESTIC PHARMACEUTICALS & BIOTECH
+placeholder,HKG,388,HKEX:388,Hong Kong Exchanges and Clearing,placeholder,own/HKG/388.png,EXCHANGES & MARKET INFRASTRUCTURE
+placeholder,HKG,3931,HKEX:3931,CALB Group,placeholder,own/HKG/3931.png,BATTERY CELL MANUFACTURERS
+placeholder,HKG,3988,HKEX:3988,Bank of China,placeholder,own/HKG/3988.png,CHINA BANKS
+placeholder,HKG,763,HKEX:763,ZTE,placeholder,own/HKG/763.png,CARRIER TELECOM NETWORK EQUIPMENT
+placeholder,HKG,823,HKEX:823,Link REIT,placeholder,own/HKG/823.png,RETAIL REITS
+placeholder,HKG,836,HKEX:836,China Resources Power,placeholder,own/HKG/836.png,CHINESE POWER UTILITIES
+placeholder,HKG,853,HKEX:853,MicroPort Scientific,placeholder,own/HKG/853.png,CARDIOVASCULAR & INTERVENTIONAL DEVICES
+placeholder,HKG,883,HKEX:883,CNOOC,placeholder,own/HKG/883.png,CHINESE STATE-CONTROLLED OIL MAJORS
+placeholder,HKG,914,HKEX:914,Anhui Conch Cement,placeholder,own/HKG/914.png,CEMENT & AGGREGATES
+placeholder,HKG,939,HKEX:939,China Construction Bank,placeholder,own/HKG/939.png,CHINA BANKS
+placeholder,HKG,9633,HKEX:9633,Nongfu Spring,placeholder,own/HKG/9633.png,NON-ALCOHOLIC BEVERAGES & SNACKS
+placeholder,HKG,9696,HKEX:9696,Tianqi Lithium,placeholder,own/HKG/9696.png,LITHIUM PRODUCERS
+placeholder,HKG,981,HKEX:981,SMIC,placeholder,own/HKG/981.png,PURE-PLAY SEMICONDUCTOR FOUNDRIES
+placeholder,HKG,9926,HKEX:9926,Akeso,placeholder,own/HKG/9926.png,CHINA DOMESTIC PHARMACEUTICALS & BIOTECH
+placeholder,JPX,1605,TSE:1605,Inpex,placeholder,own/JPX/1605.png,UPSTREAM OIL & GAS E & P
+placeholder,JPX,2802,TSE:2802,Ajinomoto,placeholder,own/JPX/2802.png,PACKAGED FOODS
+placeholder,JPX,285A,TSE:285A,Kioxia,placeholder,own/JPX/285A.png,COMMODITY MEMORY MANUFACTURERS
+placeholder,JPX,3436,TSE:3436,Sumco,placeholder,own/JPX/3436.png,SEMICONDUCTOR WAFERS & ENGINEERED SUBSTRATES
+placeholder,JPX,4091,TSE:4091,Nippon Sanso,placeholder,own/JPX/4091.png,INDUSTRIAL GASES
+placeholder,JPX,4568,TSE:4568,Daiichi Sankyo,placeholder,own/JPX/4568.png,GLOBAL LARGE-CAP PHARMACEUTICALS
+placeholder,JPX,4612,TSE:4612,Nippon Paint,placeholder,own/JPX/4612.png,PAINTS & COATINGS
+placeholder,JPX,4911,TSE:4911,Shiseido,placeholder,own/JPX/4911.png,BEAUTY & COSMETICS
+placeholder,JPX,5020,TSE:5020,ENEOS,placeholder,own/JPX/5020.png,REFINING & MARKETING
+placeholder,JPX,5401,TSE:5401,Nippon Steel,placeholder,own/JPX/5401.png,STEEL PRODUCERS
+placeholder,JPX,5802,TSE:5802,Sumitomo Electric,placeholder,own/JPX/5802.png,ELECTRICAL CABLES
+placeholder,JPX,6146,TSE:6146,Disco,placeholder,own/JPX/6146.png,GLOBAL SEMICONDUCTOR EQUIPMENT
+placeholder,JPX,6301,TSE:6301,Komatsu,placeholder,own/JPX/6301.png,CONSTRUCTION & MINING EQUIPMENT
+placeholder,JPX,6326,TSE:6326,Kubota,placeholder,own/JPX/6326.png,AGRICULTURE EQUIPMENT
+placeholder,JPX,6383,TSE:6383,Daifuku,placeholder,own/JPX/6383.png,WAREHOUSE AUTOMATION & ROBOTICS
+placeholder,JPX,6506,TSE:6506,Yaskawa Electric,placeholder,own/JPX/6506.png,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+placeholder,JPX,6645,TSE:6645,Omron,placeholder,own/JPX/6645.png,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+placeholder,JPX,6723,TSE:6723,Renesas Electronics,placeholder,own/JPX/6723.png,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+placeholder,JPX,6762,TSE:6762,TDK,placeholder,own/JPX/6762.png,PASSIVE & RF & ELECTRONIC COMPONENTS
+placeholder,JPX,6857,TSE:6857,Advantest,placeholder,own/JPX/6857.png,SEMICONDUCTOR TEST EQUIPMENT & INTERFACES
+placeholder,JPX,6861,TSE:6861,Keyence,placeholder,own/JPX/6861.png,MACHINE VISION SENSING & AUTOMATIC IDENTIFICATION
+placeholder,JPX,6920,TSE:6920,Lasertec,placeholder,own/JPX/6920.png,GLOBAL SEMICONDUCTOR EQUIPMENT
+placeholder,JPX,6954,TSE:6954,Fanuc,placeholder,own/JPX/6954.png,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+placeholder,JPX,6963,TSE:6963,Rohm,placeholder,own/JPX/6963.png,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+placeholder,JPX,6976,TSE:6976,Taiyo Yuden,placeholder,own/JPX/6976.png,PASSIVE & RF & ELECTRONIC COMPONENTS
+placeholder,JPX,6981,TSE:6981,Murata Manufacturing,placeholder,own/JPX/6981.png,PASSIVE & RF & ELECTRONIC COMPONENTS
+placeholder,JPX,7202,TSE:7202,Isuzu Motors,placeholder,own/JPX/7202.png,COMMERCIAL VEHICLES & HEAVY TRUCKS
+placeholder,JPX,7735,TSE:7735,SCREEN Holdings,placeholder,own/JPX/7735.png,GLOBAL SEMICONDUCTOR EQUIPMENT
+placeholder,JPX,7974,TSE:7974,Nintendo,placeholder,own/JPX/7974.png,GAMING & INTERACTIVE ENTERTAINMENT
+placeholder,JPX,8035,TSE:8035,Tokyo Electron,placeholder,own/JPX/8035.png,GLOBAL SEMICONDUCTOR EQUIPMENT
+placeholder,JPX,8697,TSE:8697,Japan Exchange Group,placeholder,own/JPX/8697.png,EXCHANGES & MARKET INFRASTRUCTURE
+placeholder,JPX,8766,TSE:8766,Tokio Marine,placeholder,own/JPX/8766.png,PROPERTY & CASUALTY INSURERS
+placeholder,JPX,9341,TSE:9341,GENOVA,placeholder,own/JPX/9341.png,NOT BENCHMARKED
+placeholder,JPX,9697,TSE:9697,Capcom,placeholder,own/JPX/9697.png,GAMING & INTERACTIVE ENTERTAINMENT
+placeholder,JPX,9983,TSE:9983,Fast Retailing,placeholder,own/JPX/9983.png,FAST-FASHION & APPAREL RETAIL
+placeholder,KSC,000660,KRX:000660,SK hynix,placeholder,own/KSC/000660.png,COMMODITY MEMORY MANUFACTURERS
+placeholder,KSC,034020,KRX:034020,Doosan Enerbility,placeholder,own/KSC/034020.png,POWER GENERATION & GRID EQUIPMENT
+placeholder,KSC,323410,KRX:323410,KakaoBank,placeholder,own/KSC/323410.png,DIGITAL-FIRST BANKS
+placeholder,LIS,EDP,EURONEXT:EDP,EDP,placeholder,own/LIS/EDP.png,EUROPEAN INTEGRATED UTILITIES & RENEWABLES
+placeholder,LSE,AAL,LSE:AAL,Anglo American,placeholder,own/LSE/AAL.png,DIVERSIFIED MINERS
+placeholder,LSE,ANTO,LSE:ANTO,Antofagasta,placeholder,own/LSE/ANTO.png,COPPER MINERS
+placeholder,LSE,BA.,LSE:BA.,BAE Systems,placeholder,own/LSE/BA..png,DEFENSE PRIMES & MISSION SYSTEMS
+placeholder,LSE,GLEN,LSE:GLEN,Glencore,placeholder,own/LSE/GLEN.png,DIVERSIFIED MINERS
+placeholder,LSE,LGEN,LSE:LGEN,Legal & General,placeholder,own/LSE/LGEN.png,LIFE & MULTILINE INSURERS
+placeholder,LSE,LSEG,LSE:LSEG,London Stock Exchange Group,placeholder,own/LSE/LSEG.png,EXCHANGES & MARKET INFRASTRUCTURE
+placeholder,LSE,ONT,LSE:ONT,Oxford Nanopore,placeholder,own/LSE/ONT.png,LIFE-SCIENCE TOOLS & SEQUENCING & DIAGNOSTIC PLATFORMS
+placeholder,LSE,RKT,LSE:RKT,Reckitt Benckiser,placeholder,own/LSE/RKT.png,HOUSEHOLD & PERSONAL CARE
+placeholder,LSE,SDR,LSE:SDR,Schroders,placeholder,own/LSE/SDR.png,TRADITIONAL ASSET MANAGERS
+placeholder,LSE,SGRO,LSE:SGRO,Segro,placeholder,own/LSE/SGRO.png,INDUSTRIAL & LOGISTICS REITS
+placeholder,LSE,SSE,LSE:SSE,SSE,placeholder,own/LSE/SSE.png,EUROPEAN INTEGRATED UTILITIES & RENEWABLES
+placeholder,LSE,SVT,LSE:SVT,Severn Trent,placeholder,own/LSE/SVT.png,WATER UTILITIES
+placeholder,LSE,UU.,LSE:UU.,United Utilities,placeholder,own/LSE/UU..png,WATER UTILITIES
+placeholder,LSE,WPP,LSE:WPP,WPP,placeholder,own/LSE/WPP.png,ADVERTISING & MARKETING AGENCIES
+placeholder,MCE,CLNX,BME:CLNX,Cellnex,placeholder,own/MCE/CLNX.png,CELL TOWER INFRASTRUCTURE
+placeholder,MCE,IBE,BME:IBE,Iberdrola,placeholder,own/MCE/IBE.png,EUROPEAN INTEGRATED UTILITIES & RENEWABLES
+placeholder,MCE,ITX,BME:ITX,Inditex,placeholder,own/MCE/ITX.png,FAST-FASHION & APPAREL RETAIL
+placeholder,MCE,RED,BME:RED,Redeia,placeholder,own/MCE/RED.png,REGULATED ELECTRICITY TRANSMISSION NETWORKS
+placeholder,MIL,ENEL,MIL:ENEL,Enel,placeholder,own/MIL/ENEL.png,EUROPEAN INTEGRATED UTILITIES & RENEWABLES
+placeholder,MIL,INW,MIL:INW,Inwit,placeholder,own/MIL/INW.png,CELL TOWER INFRASTRUCTURE
+placeholder,MIL,LDO,MIL:LDO,Leonardo,placeholder,own/MIL/LDO.png,DEFENSE PRIMES & MISSION SYSTEMS
+placeholder,MIL,NEXI,MIL:NEXI,Nexi,placeholder,own/MIL/NEXI.png,MERCHANT ACQUIRING & DIGITAL PAYMENTS
+placeholder,MIL,PRY,MIL:PRY,Prysmian,placeholder,own/MIL/PRY.png,ELECTRICAL CABLES
+placeholder,MIL,TRN,MIL:TRN,Terna,placeholder,own/MIL/TRN.png,REGULATED ELECTRICITY TRANSMISSION NETWORKS
+placeholder,MIL,UCG,MIL:UCG,UniCredit,placeholder,own/MIL/UCG.png,EUROPEAN UNIVERSAL BANKS
+placeholder,NMS,CBRS,NASDAQ:CBRS,Cerebras Systems,placeholder,own/NMS/CBRS.png,AI COMPUTE & PROCESSOR & ACCELERATOR SILICON
+placeholder,NMS,CGNX,NASDAQ:CGNX,Cognex,placeholder,own/NMS/CGNX.png,MACHINE VISION SENSING & AUTOMATIC IDENTIFICATION
+placeholder,NMS,CRWV,NASDAQ:CRWV,CoreWeave,placeholder,own/NMS/CRWV.png,AI CLOUD INFRASTRUCTURE & NEOCLOUDS
+placeholder,NMS,GFS,NASDAQ:GFS,GlobalFoundries,placeholder,own/NMS/GFS.png,PURE-PLAY SEMICONDUCTOR FOUNDRIES
+placeholder,NMS,GLXY,NASDAQ:GLXY,Galaxy Digital,placeholder,own/NMS/GLXY.png,DIGITAL ASSET FINANCIAL INFRASTRUCTURE
+placeholder,NMS,GMAB,NASDAQ:GMAB,Genmab,placeholder,own/NMS/GMAB.png,COMMERCIAL-STAGE BIOTECH & SPECIALTY BIOPHARMA
+placeholder,NMS,HAPN,NASDAQ:HAPN,HAPN,placeholder,own/NMS/HAPN.png,DIGITAL-FIRST BANKS
+placeholder,NMS,MPWR,NASDAQ:MPWR,Monolithic Power Systems,placeholder,own/NMS/MPWR.png,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+placeholder,NMS,MXL,NASDAQ:MXL,MaxLinear,placeholder,own/NMS/MXL.png,NOT BENCHMARKED
+placeholder,NMS,NVTS,NASDAQ:NVTS,Navitas Semiconductor,placeholder,own/NMS/NVTS.png,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+placeholder,NMS,PTC,NASDAQ:PTC,PTC,placeholder,own/NMS/PTC.png,EDA & ENGINEERING SOFTWARE
+placeholder,NMS,SNDK,NASDAQ:SNDK,Sandisk,placeholder,own/NMS/SNDK.png,DATA STORAGE DEVICES
+placeholder,NMS,TWST,NASDAQ:TWST,Twist Bioscience,placeholder,own/NMS/TWST.png,LIFE-SCIENCE TOOLS & SEQUENCING & DIAGNOSTIC PLATFORMS
+placeholder,NMS,WTW,NASDAQ:WTW,Willis Towers Watson,placeholder,own/NMS/WTW.png,INSURANCE BROKERS
+placeholder,NMS,XE,NASDAQ:XE,X-energy,placeholder,own/NMS/XE.png,ADVANCED NUCLEAR & SMR DEVELOPERS
+placeholder,NMS,XEL,NASDAQ:XEL,Xcel Energy,placeholder,own/NMS/XEL.png,US REGULATED ELECTRIC UTILITIES
+placeholder,NYQ,BDC,NYSE:BDC,Belden,placeholder,own/NYQ/BDC.png,ELECTRONIC INTERCONNECT COMPONENTS
+placeholder,NYQ,BLSH,NYSE:BLSH,Bullish,placeholder,own/NYQ/BLSH.png,DIGITAL ASSET FINANCIAL INFRASTRUCTURE
+placeholder,NYQ,CNH,NYSE:CNH,CNH Industrial,placeholder,own/NYQ/CNH.png,AGRICULTURE EQUIPMENT
+placeholder,NYQ,DX,NYSE:DX,Dynex Capital,placeholder,own/NYQ/DX.png,AGENCY MORTGAGE REITS
+placeholder,NYQ,INFQ,NYSE:INFQ,Infleqtion,placeholder,own/NYQ/INFQ.png,QUANTUM COMPUTING & SENSING
+placeholder,NYQ,JEF,NYSE:JEF,Jefferies Financial Group,placeholder,own/NYQ/JEF.png,INVESTMENT BANKS
+placeholder,NYQ,MAA,NYSE:MAA,Mid-America Apartment Communities,placeholder,own/NYQ/MAA.png,RESIDENTIAL REITS
+placeholder,NYQ,PSA,NYSE:PSA,Public Storage,placeholder,own/NYQ/PSA.png,SELF-STORAGE REITS
+placeholder,NYQ,STWD,NYSE:STWD,Starwood Property Trust,placeholder,own/NYQ/STWD.png,COMMERCIAL MORTGAGE REITS
+placeholder,NYQ,UDR,NYSE:UDR,UDR,placeholder,own/NYQ/UDR.png,RESIDENTIAL REITS
+placeholder,NYQ,VNO,NYSE:VNO,Vornado Realty Trust,placeholder,own/NYQ/VNO.png,OFFICE REITS
+placeholder,NYQ,VTR,NYSE:VTR,Ventas,placeholder,own/NYQ/VTR.png,HEALTHCARE REITS
+placeholder,NYQ,WPC,NYSE:WPC,W. P. Carey,placeholder,own/NYQ/WPC.png,NET LEASE REITS
+placeholder,NYQ,YUM,NYSE:YUM,Yum! Brands,placeholder,own/NYQ/YUM.png,QUICK-SERVICE RESTAURANTS & COFFEE
+placeholder,OSL,AKRBP,OSL:AKRBP,Aker BP,placeholder,own/OSL/AKRBP.png,UPSTREAM OIL & GAS E & P
+placeholder,OSL,AUTO,OSL:AUTO,AutoStore,placeholder,own/OSL/AUTO.png,WAREHOUSE AUTOMATION & ROBOTICS
+placeholder,OSL,NHY,OSL:NHY,Norsk Hydro,placeholder,own/OSL/NHY.png,ALUMINUM PRODUCERS
+placeholder,OSL,YAR,OSL:YAR,Yara International,placeholder,own/OSL/YAR.png,FERTILIZERS
+placeholder,PAR,AKE,EURONEXT:AKE,Arkema,placeholder,own/PAR/AKE.png,DIVERSIFIED & SPECIALTY CHEMICALS
+placeholder,PAR,AMUN,EURONEXT:AMUN,Amundi,placeholder,own/PAR/AMUN.png,TRADITIONAL ASSET MANAGERS
+placeholder,PAR,BNP,EURONEXT:BNP,BNP Paribas,placeholder,own/PAR/BNP.png,EUROPEAN UNIVERSAL BANKS
+placeholder,PAR,CAP,EURONEXT:CAP,Capgemini,placeholder,own/PAR/CAP.png,IT SERVICES & SYSTEMS INTEGRATION
+placeholder,PAR,CS,EURONEXT:CS,AXA,placeholder,own/PAR/CS.png,LIFE & MULTILINE INSURERS
+placeholder,PAR,ENGI,EURONEXT:ENGI,Engie,placeholder,own/PAR/ENGI.png,EUROPEAN INTEGRATED UTILITIES & RENEWABLES
+placeholder,PAR,ENX,EURONEXT:ENX,Euronext,placeholder,own/PAR/ENX.png,EXCHANGES & MARKET INFRASTRUCTURE
+placeholder,PAR,EURONEXT:AC,EURONEXT:AC,Accor,placeholder,own/PAR/EURONEXT_AC.png,HOTELS & LODGING
+placeholder,PAR,EURONEXT:AI,EURONEXT:AI,Air Liquide,placeholder,own/PAR/EURONEXT_AI.png,INDUSTRIAL GASES
+placeholder,PAR,EURONEXT:BN,EURONEXT:BN,Danone,placeholder,own/PAR/EURONEXT_BN.png,PACKAGED FOODS
+placeholder,PAR,EURONEXT:OR,EURONEXT:OR,L'Oreal,placeholder,own/PAR/EURONEXT_OR.png,BEAUTY & COSMETICS
+placeholder,PAR,HO,EURONEXT:HO,Thales,placeholder,own/PAR/HO.png,DEFENSE PRIMES & MISSION SYSTEMS
+placeholder,PAR,KER,EURONEXT:KER,Kering,placeholder,own/PAR/KER.png,LUXURY GOODS
+placeholder,PAR,LR,EURONEXT:LR,Legrand,placeholder,own/PAR/LR.png,ELECTRICAL COMPONENTS & BUILDING SYSTEMS
+placeholder,PAR,MC,EURONEXT:MC,LVMH,placeholder,own/PAR/MC.png,LUXURY GOODS
+placeholder,PAR,NEX,EURONEXT:NEX,Nexans,placeholder,own/PAR/NEX.png,ELECTRICAL CABLES
+placeholder,PAR,PUB,EURONEXT:PUB,Publicis Groupe,placeholder,own/PAR/PUB.png,ADVERTISING & MARKETING AGENCIES
+placeholder,PAR,RI,EURONEXT:RI,Pernod Ricard,placeholder,own/PAR/RI.png,ALCOHOLIC BEVERAGES
+placeholder,PAR,RMS,EURONEXT:RMS,Hermes,placeholder,own/PAR/RMS.png,LUXURY GOODS
+placeholder,PAR,SAF,EURONEXT:SAF,Safran,placeholder,own/PAR/SAF.png,COMMERCIAL AEROSPACE ENGINES & SYSTEMS
+placeholder,PAR,SOI,EURONEXT:SOI,Soitec,placeholder,own/PAR/SOI.png,SEMICONDUCTOR WAFERS & ENGINEERED SUBSTRATES
+placeholder,PAR,URW,EURONEXT:URW,Unibail-Rodamco-Westfield,placeholder,own/PAR/URW.png,RETAIL REITS
+placeholder,PAR,VIE,EURONEXT:VIE,Veolia,placeholder,own/PAR/VIE.png,WASTE MANAGEMENT & ENVIRONMENTAL SERVICES
+placeholder,PAR,WLN,EURONEXT:WLN,Worldline,placeholder,own/PAR/WLN.png,MERCHANT ACQUIRING & DIGITAL PAYMENTS
+placeholder,SES,AJBU,SGX:AJBU,Keppel DC REIT,placeholder,own/SES/AJBU.png,DATA CENTER REITS
+placeholder,SES,M44U,SGX:M44U,Mapletree Logistics Trust,placeholder,own/SES/M44U.png,INDUSTRIAL & LOGISTICS REITS
+placeholder,SES,S68,SGX:S68,Singapore Exchange,placeholder,own/SES/S68.png,EXCHANGES & MARKET INFRASTRUCTURE
+placeholder,SHH,600019,SSE:600019,Baoshan Iron & Steel,placeholder,own/SHH/600019.png,STEEL PRODUCERS
+placeholder,SHH,600031,SSE:600031,Sany Heavy Industry,placeholder,own/SHH/600031.png,CONSTRUCTION & MINING EQUIPMENT
+placeholder,SHH,600111,SSE:600111,China Northern Rare Earth,placeholder,own/SHH/600111.png,RARE-EARTH PRODUCERS & PROCESSORS
+placeholder,SHH,600276,SSE:600276,Jiangsu Hengrui Pharmaceuticals,placeholder,own/SHH/600276.png,CHINA DOMESTIC PHARMACEUTICALS & BIOTECH
+placeholder,SHH,600519,SSE:600519,Kweichow Moutai,placeholder,own/SHH/600519.png,CHINA PREMIUM BAIJIU
+placeholder,SHH,600584,SSE:600584,JCET Group,placeholder,own/SHH/600584.png,OSAT & ADVANCED PACKAGING
+placeholder,SHH,600875,SSE:600875,Dongfang Electric,placeholder,own/SHH/600875.png,POWER GENERATION & GRID EQUIPMENT
+placeholder,SHH,600900,SSE:600900,China Yangtze Power,placeholder,own/SHH/600900.png,CHINESE POWER UTILITIES
+placeholder,SHH,601727,SSE:601727,Shanghai Electric,placeholder,own/SHH/601727.png,POWER GENERATION & GRID EQUIPMENT
+placeholder,SHH,688012,SSE:688012,Advanced Micro-Fabrication Equipment,placeholder,own/SHH/688012.png,CHINA SEMICONDUCTOR EQUIPMENT
+placeholder,SHH,688041,SSE:688041,Hygon Information Technology,placeholder,own/SHH/688041.png,CHINA CPU & AI ACCELERATOR SILICON
+placeholder,SHH,688047,SSE:688047,Loongson Technology,placeholder,own/SHH/688047.png,CHINA CPU & AI ACCELERATOR SILICON
+placeholder,SHH,688072,SSE:688072,Piotech,placeholder,own/SHH/688072.png,CHINA SEMICONDUCTOR EQUIPMENT
+placeholder,SHH,688256,SSE:688256,Cambricon Technologies,placeholder,own/SHH/688256.png,CHINA CPU & AI ACCELERATOR SILICON
+placeholder,SHH,688271,SSE:688271,Shanghai United Imaging Healthcare,placeholder,own/SHH/688271.png,DIAGNOSTIC IMAGING & PATIENT-MONITORING EQUIPMENT
+placeholder,SHZ,000568,SZSE:000568,Luzhou Laojiao,placeholder,own/SHZ/000568.png,CHINA PREMIUM BAIJIU
+placeholder,SHZ,000858,SZSE:000858,Wuliangye Yibin,placeholder,own/SHZ/000858.png,CHINA PREMIUM BAIJIU
+placeholder,SHZ,000977,SZSE:000977,Inspur Electronic Information,placeholder,own/SHZ/000977.png,ENTERPRISE & AI SERVER SYSTEMS
+placeholder,SHZ,002156,SZSE:002156,Tongfu Microelectronics,placeholder,own/SHZ/002156.png,OSAT & ADVANCED PACKAGING
+placeholder,SHZ,002281,SZSE:002281,Accelink Technologies,placeholder,own/SHZ/002281.png,CHINA OPTICAL TRANSCEIVER MODULES
+placeholder,SHZ,002371,SZSE:002371,NAURA Technology,placeholder,own/SHZ/002371.png,CHINA SEMICONDUCTOR EQUIPMENT
+placeholder,SHZ,300014,SZSE:300014,EVE Energy,placeholder,own/SHZ/300014.png,BATTERY CELL MANUFACTURERS
+placeholder,SHZ,300124,SZSE:300124,Shenzhen Inovance Technology,placeholder,own/SHZ/300124.png,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+placeholder,SHZ,300308,SZSE:300308,Zhongji Innolight,placeholder,own/SHZ/300308.png,CHINA OPTICAL TRANSCEIVER MODULES
+placeholder,SHZ,300502,SZSE:300502,Eoptolink Technology,placeholder,own/SHZ/300502.png,CHINA OPTICAL TRANSCEIVER MODULES
+placeholder,SHZ,300750,SZSE:300750,CATL,placeholder,own/SHZ/300750.png,BATTERY CELL MANUFACTURERS
+placeholder,SHZ,300760,SZSE:300760,Mindray,placeholder,own/SHZ/300760.png,DIAGNOSTIC IMAGING & PATIENT-MONITORING EQUIPMENT
+placeholder,STO,EPI_A,OMXSTO:EPI_A,Epiroc,placeholder,own/STO/EPI_A.png,CONSTRUCTION & MINING EQUIPMENT
+placeholder,STO,MTRS,OMXSTO:MTRS,Munters,placeholder,own/STO/MTRS.png,DATA-CENTER ELECTRICAL & THERMAL INFRASTRUCTURE
+placeholder,STO,OMXSTO:EQT,OMXSTO:EQT,EQT,placeholder,own/STO/OMXSTO_EQT.png,ALTERNATIVE ASSET MANAGERS
+placeholder,STO,SAAB_B,OMXSTO:SAAB_B,Saab,placeholder,own/STO/SAAB_B.png,DEFENSE PRIMES & MISSION SYSTEMS
+placeholder,TAI,2317,TWSE:2317,Hon Hai (Foxconn),placeholder,own/TAI/2317.png,ELECTRONICS MANUFACTURING SERVICES & CLOUD ODMS
+placeholder,TAI,2327,TWSE:2327,Yageo,placeholder,own/TAI/2327.png,PASSIVE & RF & ELECTRONIC COMPONENTS
+placeholder,TAI,2382,TWSE:2382,Quanta Computer,placeholder,own/TAI/2382.png,ELECTRONICS MANUFACTURING SERVICES & CLOUD ODMS
+placeholder,TAI,2408,TWSE:2408,Nanya Technology,placeholder,own/TAI/2408.png,COMMODITY MEMORY MANUFACTURERS
+placeholder,TAI,3231,TWSE:3231,Wistron,placeholder,own/TAI/3231.png,ELECTRONICS MANUFACTURING SERVICES & CLOUD ODMS
+placeholder,TAI,4938,TWSE:4938,Pegatron,placeholder,own/TAI/4938.png,ELECTRONICS MANUFACTURING SERVICES & CLOUD ODMS
+placeholder,TAI,6239,TWSE:6239,Powertech Technology,placeholder,own/TAI/6239.png,OSAT & ADVANCED PACKAGING
+placeholder,TAI,6669,TWSE:6669,Wiwynn,placeholder,own/TAI/6669.png,ELECTRONICS MANUFACTURING SERVICES & CLOUD ODMS
+placeholder,TOR,BN,TSX:BN,Brookfield Corporation,placeholder,own/TOR/BN.png,NOT BENCHMARKED
+placeholder,TOR,CNQ,TSX:CNQ,Canadian Natural Resources,placeholder,own/TOR/CNQ.png,UPSTREAM OIL & GAS E & P
+placeholder,TOR,FM,TSX:FM,First Quantum Minerals,placeholder,own/TOR/FM.png,COPPER MINERS
+placeholder,TOR,MDA,TSX:MDA,MDA Space,placeholder,own/TOR/MDA.png,COMMERCIAL SPACE & LAUNCH SYSTEMS
+placeholder,TOR,NA,TSX:NA,National Bank of Canada,placeholder,own/TOR/NA.png,CANADIAN BANKS
+placeholder,TOR,NXE,TSX:NXE,NexGen Energy,placeholder,own/TOR/NXE.png,URANIUM MINERS
+placeholder,WSE,KGH,GPW:KGH,KGHM Polska Miedz,placeholder,own/WSE/KGH.png,COPPER MINERS
+added,AMS,ADYEN,EURONEXT:ADYEN,Adyen,simple-icons:Adyen,own/AMS/ADYEN.png,MERCHANT ACQUIRING & DIGITAL PAYMENTS
+added,AMS,INGA,EURONEXT:INGA,ING Groep,nvstly:ING,own/AMS/INGA.png,EUROPEAN UNIVERSAL BANKS
+added,AMS,MT,EURONEXT:MT,ArcelorMittal,nvstly:MT,own/AMS/MT.png,STEEL PRODUCERS
+added,AMS,PHIA,EURONEXT:PHIA,Philips,nvstly:PHG,own/AMS/PHIA.png,DIAGNOSTIC IMAGING & PATIENT-MONITORING EQUIPMENT
+added,BRU,ABI,EURONEXT:ABI,Anheuser-Busch InBev,nvstly:BUD,own/BRU/ABI.png,ALCOHOLIC BEVERAGES
+added,EBS,ABBN,SIX:ABBN,ABB,simple-icons:ABB,own/EBS/ABBN.png,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+added,EBS,NOVN,SIX:NOVN,Novartis,nvstly:NVS,own/EBS/NOVN.png,GLOBAL LARGE-CAP PHARMACEUTICALS
+added,EBS,UBSG,SIX:UBSG,UBS,nvstly:UBS,own/EBS/UBSG.png,EUROPEAN UNIVERSAL BANKS
+added,GER,ADS,XETR:ADS,adidas,nvstly:ADDYY,own/GER/ADS.png,ATHLETIC FOOTWEAR & APPAREL
+added,GER,BMW,XETR:BMW,BMW,simple-icons:BMW,own/GER/BMW.png,PREMIUM & LUXURY AUTOMAKERS
+added,GER,DBK,XETR:DBK,Deutsche Bank,nvstly:DB,own/GER/DBK.png,EUROPEAN UNIVERSAL BANKS
+added,GER,DHL,XETR:DHL,DHL Group,simple-icons:DHL,own/GER/DHL.png,PARCEL & EXPRESS LOGISTICS
+added,GER,P911,XETR:P911,Porsche,simple-icons:Porsche,own/GER/P911.png,PREMIUM & LUXURY AUTOMAKERS
+added,GER,PUM,XETR:PUM,Puma,simple-icons:Puma,own/GER/PUM.png,ATHLETIC FOOTWEAR & APPAREL
+added,GER,SIE,XETR:SIE,Siemens,simple-icons:Siemens,own/GER/SIE.png,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+added,GER,VOW3,XETR:VOW3,Volkswagen,simple-icons:Volkswagen,own/GER/VOW3.png,DIVERSIFIED MASS-MARKET AUTO OEMS
+added,GER,XETR:DTE,XETR:DTE,Deutsche Telekom,simple-icons:Deutsche Telekom,own/GER/XETR_DTE.png,TELECOM OPERATORS
+added,HEL,NOKIA,OMXHEX:NOKIA,Nokia,nvstly:NOK,own/HEL/NOKIA.png,CARRIER TELECOM NETWORK EQUIPMENT
+added,HKG,1810,HKEX:1810,Xiaomi,simple-icons:Xiaomi,own/HKG/1810.png,CONSUMER ELECTRONICS & SMART DEVICES
+added,HKG,2020,HKEX:2020,ANTA Sports,simple-icons:Anta,own/HKG/2020.png,ATHLETIC FOOTWEAR & APPAREL
+added,HKG,2331,HKEX:2331,Li Ning,simple-icons:Li-Ning,own/HKG/2331.png,ATHLETIC FOOTWEAR & APPAREL
+added,HKG,2600,HKEX:2600,Aluminum Corporation of China,nvstly:ACH,own/HKG/2600.png,ALUMINUM PRODUCERS
+added,HKG,2628,HKEX:2628,China Life Insurance,nvstly:LFC,own/HKG/2628.png,LIFE & MULTILINE INSURERS
+added,HKG,386,HKEX:386,Sinopec,nvstly:SNP,own/HKG/386.png,CHINESE STATE-CONTROLLED OIL MAJORS
+added,HKG,700,HKEX:700,Tencent,nvstly:TCEHY,own/HKG/700.png,GAMING & INTERACTIVE ENTERTAINMENT; CHINA INTERNET PLATFORMS
+added,HKG,857,HKEX:857,PetroChina,nvstly:PTR,own/HKG/857.png,CHINESE STATE-CONTROLLED OIL MAJORS
+added,HKG,902,HKEX:902,Huaneng Power International,nvstly:HNP,own/HKG/902.png,CHINESE POWER UTILITIES
+added,HKG,992,HKEX:992,Lenovo,simple-icons:Lenovo,own/HKG/992.png,ENTERPRISE & AI SERVER SYSTEMS
+added,JPX,4188,TSE:4188,Mitsubishi Chemical,simple-icons:Mitsubishi,own/JPX/4188.png,DIVERSIFIED & SPECIALTY CHEMICALS
+added,JPX,4502,TSE:4502,Takeda Pharmaceutical,nvstly:TAK,own/JPX/4502.png,GLOBAL LARGE-CAP PHARMACEUTICALS
+added,JPX,4704,TSE:4704,Trend Micro,simple-icons:Trend Micro,own/JPX/4704.png,CYBERSECURITY
+added,JPX,6305,TSE:6305,Hitachi Construction Machinery,simple-icons:Hitachi,own/JPX/6305.png,CONSTRUCTION & MINING EQUIPMENT
+added,JPX,6501,TSE:6501,Hitachi,simple-icons:Hitachi,own/JPX/6501.png,NOT BENCHMARKED
+added,JPX,6503,TSE:6503,Mitsubishi Electric,simple-icons:Mitsubishi,own/JPX/6503.png,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+added,JPX,6701,TSE:6701,NEC,simple-icons:NEC,own/JPX/6701.png,IT SERVICES & SYSTEMS INTEGRATION
+added,JPX,6702,TSE:6702,Fujitsu,simple-icons:Fujitsu,own/JPX/6702.png,IT SERVICES & SYSTEMS INTEGRATION
+added,JPX,6752,TSE:6752,Panasonic,simple-icons:Panasonic,own/JPX/6752.png,CONSUMER ELECTRONICS & SMART DEVICES
+added,JPX,7011,TSE:7011,Mitsubishi Heavy Industries,simple-icons:Mitsubishi,own/JPX/7011.png,POWER GENERATION & GRID EQUIPMENT
+added,JPX,8306,TSE:8306,Mitsubishi UFJ Financial,nvstly:MUFG,own/JPX/8306.png,JAPAN MEGABANKS
+added,JPX,8316,TSE:8316,Sumitomo Mitsui Financial,nvstly:SMFG,own/JPX/8316.png,JAPAN MEGABANKS
+added,JPX,8411,TSE:8411,Mizuho Financial,nvstly:MFG,own/JPX/8411.png,JAPAN MEGABANKS
+added,KSC,005380,KRX:005380,Hyundai Motor,simple-icons:Hyundai,own/KSC/005380.png,DIVERSIFIED MASS-MARKET AUTO OEMS
+added,KSC,005490,KRX:005490,POSCO Holdings,nvstly:PKX,own/KSC/005490.png,STEEL PRODUCERS
+added,KSC,005930,KRX:005930,Samsung Electronics,simple-icons:Samsung,own/KSC/005930.png,CONSUMER ELECTRONICS & SMART DEVICES; COMMODITY MEMORY MANUFACTURERS
+added,KSC,006400,KRX:006400,Samsung SDI,simple-icons:Samsung,own/KSC/006400.png,BATTERY CELL MANUFACTURERS
+added,KSC,009150,KRX:009150,Samsung Electro-Mechanics,simple-icons:Samsung,own/KSC/009150.png,PASSIVE & RF & ELECTRONIC COMPONENTS
+added,KSC,066570,KRX:066570,LG Electronics,simple-icons:LG,own/KSC/066570.png,CONSUMER ELECTRONICS & SMART DEVICES
+added,KSC,373220,KRX:373220,LG Energy Solution,simple-icons:LG,own/KSC/373220.png,BATTERY CELL MANUFACTURERS
+added,LSE,AZN,LSE:AZN,AstraZeneca,nvstly:AZN,own/LSE/AZN.png,GLOBAL LARGE-CAP PHARMACEUTICALS
+added,LSE,BARC,LSE:BARC,Barclays,nvstly:BCS,own/LSE/BARC.png,EUROPEAN UNIVERSAL BANKS
+added,LSE,BP.,LSE:BP.,BP,nvstly:BP,own/LSE/BP..png,GLOBAL INTEGRATED OIL & GAS
+added,LSE,DGE,LSE:DGE,Diageo,nvstly:DEO,own/LSE/DGE.png,ALCOHOLIC BEVERAGES
+added,LSE,GSK,LSE:GSK,GSK,nvstly:GSK,own/LSE/GSK.png,GLOBAL LARGE-CAP PHARMACEUTICALS
+added,LSE,HSBA,LSE:HSBA,HSBC,nvstly:HSBC,own/LSE/HSBA.png,EUROPEAN UNIVERSAL BANKS
+added,LSE,IHG,LSE:IHG,InterContinental Hotels Group,nvstly:IHG,own/LSE/IHG.png,HOTELS & LODGING
+added,LSE,NG.,LSE:NG.,National Grid,nvstly:NGG,own/LSE/NG..png,REGULATED ELECTRICITY TRANSMISSION NETWORKS
+added,LSE,RR.,LSE:RR.,Rolls-Royce,nvstly:RYCEY,own/LSE/RR..png,COMMERCIAL AEROSPACE ENGINES & SYSTEMS
+added,LSE,SHEL,LSE:SHEL,Shell,nvstly:SHEL,own/LSE/SHEL.png,GLOBAL INTEGRATED OIL & GAS
+added,LSE,SN.,LSE:SN.,Smith & Nephew,nvstly:SNN,own/LSE/SN..png,SURGICAL SYSTEMS & ORTHOPEDIC DEVICES
+added,LSE,ULVR,LSE:ULVR,Unilever,nvstly:UL,own/LSE/ULVR.png,HOUSEHOLD & PERSONAL CARE
+added,LSE,VOD,LSE:VOD,Vodafone,nvstly:VOD,own/LSE/VOD.png,TELECOM OPERATORS
+added,MCE,SAN,BME:SAN,Banco Santander,nvstly:SAN,own/MCE/SAN.png,EUROPEAN UNIVERSAL BANKS
+added,MIL,ENI,MIL:ENI,Eni,nvstly:E,own/MIL/ENI.png,GLOBAL INTEGRATED OIL & GAS
+added,MIL,STLAM,MIL:STLAM,Stellantis,nvstly:STLA,own/MIL/STLAM.png,DIVERSIFIED MASS-MARKET AUTO OEMS
+added,NMS,ONC,NASDAQ:ONC,BeOne Medicines,nvstly:BGNE,own/NMS/ONC.png,COMMERCIAL-STAGE BIOTECH & SPECIALTY BIOPHARMA
+added,NMS,SPCX,NASDAQ:SPCX,SpaceX,simple-icons:SpaceX,own/NMS/SPCX.png,COMMERCIAL SPACE & LAUNCH SYSTEMS
+added,NMS,ZBRA,NASDAQ:ZBRA,Zebra Technologies,simple-icons:Zebra Technologies,own/NMS/ZBRA.png,MACHINE VISION SENSING & AUTOMATIC IDENTIFICATION
+added,NYQ,CRCL,NYSE:CRCL,Circle Internet Group,simple-icons:Circle,own/NYQ/CRCL.png,DIGITAL ASSET FINANCIAL INFRASTRUCTURE
+added,NYQ,KREF,NYSE:KREF,KKR Real Estate Finance Trust,nvstly:KKR,own/NYQ/KREF.png,COMMERCIAL MORTGAGE REITS
+added,NYQ,MRSH,NYSE:MRSH,Marsh McLennan,nvstly:MMC,own/NYQ/MRSH.png,INSURANCE BROKERS
+added,NYQ,NYSE:NEM,NYSE:NEM,Newmont,nvstly:NEM,own/NYQ/NYSE_NEM.png,GOLD MINERS
+added,OSL,EQNR,OSL:EQNR,Equinor,nvstly:EQNR,own/OSL/EQNR.png,GLOBAL INTEGRATED OIL & GAS
+added,PAR,CA,EURONEXT:CA,Carrefour,simple-icons:Carrefour,own/PAR/CA.png,FOOD & GENERAL-MERCHANDISE RETAIL
+added,PAR,DSY,EURONEXT:DSY,Dassault Systemes,simple-icons:Dassault Systèmes,own/PAR/DSY.png,EDA & ENGINEERING SOFTWARE
+added,PAR,EURONEXT:AIR,EURONEXT:AIR,Airbus,simple-icons:Airbus,own/PAR/EURONEXT_AIR.png,COMMERCIAL AIRCRAFT OEMS
+added,PAR,EURONEXT:SU,EURONEXT:SU,Schneider Electric,simple-icons:Schneider Electric,own/PAR/EURONEXT_SU.png,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+added,PAR,ORA,EURONEXT:ORA,Orange,simple-icons:Orange,own/PAR/ORA.png,TELECOM OPERATORS
+added,PAR,RNO,EURONEXT:RNO,Renault,simple-icons:Renault,own/PAR/RNO.png,DIVERSIFIED MASS-MARKET AUTO OEMS
+added,PAR,TTE,EURONEXT:TTE,TotalEnergies,nvstly:TTE,own/PAR/TTE.png,GLOBAL INTEGRATED OIL & GAS
+added,STO,ERIC_B,OMXSTO:ERIC_B,Ericsson,nvstly:ERIC,own/STO/ERIC_B.png,CARRIER TELECOM NETWORK EQUIPMENT
+added,STO,HM_B,OMXSTO:HM_B,H&M,simple-icons:H&M,own/STO/HM_B.png,FAST-FASHION & APPAREL RETAIL
+added,STO,VOLV_B,OMXSTO:VOLV_B,Volvo,simple-icons:Volvo,own/STO/VOLV_B.png,COMMERCIAL VEHICLES & HEAVY TRUCKS
+added,TAI,2454,TWSE:2454,MediaTek,simple-icons:MediaTek,own/TAI/2454.png,AI COMPUTE & PROCESSOR & ACCELERATOR SILICON
+added,TOR,AEM,TSX:AEM,Agnico Eagle,nvstly:AEM,own/TOR/AEM.png,GOLD MINERS
+added,TOR,BAM,TSX:BAM,Brookfield Asset Management,nvstly:BAM,own/TOR/BAM.png,ALTERNATIVE ASSET MANAGERS
+added,TOR,BMO,TSX:BMO,Bank of Montreal,nvstly:BMO,own/TOR/BMO.png,CANADIAN BANKS
+added,TOR,BNS,TSX:BNS,Scotiabank,nvstly:BNS,own/TOR/BNS.png,CANADIAN BANKS
+added,TOR,CLS,TSX:CLS,Celestica,nvstly:CLS,own/TOR/CLS.png,ELECTRONICS MANUFACTURING SERVICES & CLOUD ODMS
+added,TOR,CM,TSX:CM,CIBC,nvstly:CM,own/TOR/CM.png,CANADIAN BANKS
+added,TOR,CP,TSX:CP,Canadian Pacific Kansas City,nvstly:CP,own/TOR/CP.png,FREIGHT RAILROADS
+added,TOR,ENB,TSX:ENB,Enbridge,nvstly:ENB,own/TOR/ENB.png,NORTH AMERICAN MIDSTREAM PIPELINES
+added,TOR,RY,TSX:RY,Royal Bank of Canada,nvstly:RY,own/TOR/RY.png,CANADIAN BANKS
+added,TOR,SHOP,TSX:SHOP,Shopify,nvstly:SHOP,own/TOR/SHOP.png,E-COMMERCE MARKETPLACES & ECOSYSTEMS
+added,TOR,TD,TSX:TD,TD Bank,nvstly:TD,own/TOR/TD.png,CANADIAN BANKS
+added,TOR,TRP,TSX:TRP,TC Energy,nvstly:TRP,own/TOR/TRP.png,NORTH AMERICAN MIDSTREAM PIPELINES
+added,TOR,TSX:CNR,TSX:CNR,Canadian National Railway,nvstly:CNI,own/TOR/TSX_CNR.png,FREIGHT RAILROADS
+added,TOR,WCN,TSX:WCN,Waste Connections,nvstly:WCN,own/TOR/WCN.png,WASTE MANAGEMENT & ENVIRONMENTAL SERVICES
+added,TOR,WPM,TSX:WPM,Wheaton Precious Metals,nvstly:WPM,own/TOR/WPM.png,PRECIOUS-METALS STREAMING & ROYALTIES
+have,ASE,MSN,AMEX:MSN,,nvstly,,NOT BENCHMARKED
+have,ASE,UEC,AMEX:UEC,,nvstly,,URANIUM MINERS
+have,NMS,AAPL,NASDAQ:AAPL,,nvstly,,CONSUMER ELECTRONICS & SMART DEVICES
+have,NMS,ABNB,NASDAQ:ABNB,,nvstly,,ONLINE TRAVEL PLATFORMS
+have,NMS,ABSI,NASDAQ:ABSI,,nvstly,,AI & COMPUTATIONAL DRUG DISCOVERY
+have,NMS,ADBE,NASDAQ:ADBE,,nvstly,,ENTERPRISE APPLICATIONS & WORKFLOW SOFTWARE
+have,NMS,ADI,NASDAQ:ADI,,nvstly,,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+have,NMS,ADSK,NASDAQ:ADSK,,nvstly,,EDA & ENGINEERING SOFTWARE
+have,NMS,AEP,NASDAQ:AEP,,nvstly,,US REGULATED ELECTRIC UTILITIES
+have,NMS,AGNC,NASDAQ:AGNC,,nvstly,,AGENCY MORTGAGE REITS
+have,NMS,ALAB,NASDAQ:ALAB,,nvstly,,DATA-CENTER NETWORKING & INTERCONNECT SILICON & SYSTEMS
+have,NMS,AMAT,NASDAQ:AMAT,,nvstly,,GLOBAL SEMICONDUCTOR EQUIPMENT
+have,NMS,AMD,NASDAQ:AMD,,nvstly,,AI COMPUTE & PROCESSOR & ACCELERATOR SILICON
+have,NMS,AMGN,NASDAQ:AMGN,,nvstly,,COMMERCIAL-STAGE BIOTECH & SPECIALTY BIOPHARMA
+have,NMS,AMKR,NASDAQ:AMKR,,nvstly,,OSAT & ADVANCED PACKAGING
+have,NMS,AMZN,NASDAQ:AMZN,,nvstly,,E-COMMERCE MARKETPLACES & ECOSYSTEMS; HYPERSCALE CLOUD PLATFORMS
+have,NMS,APLD,NASDAQ:APLD,,nvstly,,AI CLOUD INFRASTRUCTURE & NEOCLOUDS
+have,NMS,ARGX,NASDAQ:ARGX,,nvstly,,COMMERCIAL-STAGE BIOTECH & SPECIALTY BIOPHARMA
+have,NMS,ARM,NASDAQ:ARM,,nvstly,,AI COMPUTE & PROCESSOR & ACCELERATOR SILICON
+have,NMS,ASML,NASDAQ:ASML,,nvstly,,GLOBAL SEMICONDUCTOR EQUIPMENT
+have,NMS,AVGO,NASDAQ:AVGO,,nvstly,,AI COMPUTE & PROCESSOR & ACCELERATOR SILICON
+have,NMS,BEAM,NASDAQ:BEAM,,nvstly,,GENE-EDITING THERAPEUTICS
+have,NMS,BIDU,NASDAQ:BIDU,,nvstly,,CHINA INTERNET PLATFORMS
+have,NMS,BKNG,NASDAQ:BKNG,,nvstly,,ONLINE TRAVEL PLATFORMS
+have,NMS,BKR,NASDAQ:BKR,,nvstly,,OILFIELD SERVICES & EQUIPMENT
+have,NMS,BNTX,NASDAQ:BNTX,,nvstly,,COMMERCIAL-STAGE BIOTECH & SPECIALTY BIOPHARMA
+have,NMS,BSY,NASDAQ:BSY,,nvstly,,EDA & ENGINEERING SOFTWARE
+have,NMS,CDNS,NASDAQ:CDNS,,nvstly,,EDA & ENGINEERING SOFTWARE
+have,NMS,CEG,NASDAQ:CEG,,nvstly,,COMPETITIVE POWER GENERATORS
+have,NMS,CG,NASDAQ:CG,,nvstly,,ALTERNATIVE ASSET MANAGERS
+have,NMS,CHKP,NASDAQ:CHKP,,nvstly,,CYBERSECURITY
+have,NMS,CMCSA,NASDAQ:CMCSA,,nvstly,,GLOBAL MEDIA & STREAMING
+have,NMS,CME,NASDAQ:CME,,nvstly,,EXCHANGES & MARKET INFRASTRUCTURE
+have,NMS,COIN,NASDAQ:COIN,,nvstly,,DIGITAL ASSET FINANCIAL INFRASTRUCTURE
+have,NMS,COST,NASDAQ:COST,,nvstly,,FOOD & GENERAL-MERCHANDISE RETAIL
+have,NMS,CRDO,NASDAQ:CRDO,,nvstly,,DATA-CENTER NETWORKING & INTERCONNECT SILICON & SYSTEMS
+have,NMS,CRSP,NASDAQ:CRSP,,nvstly,,GENE-EDITING THERAPEUTICS
+have,NMS,CRWD,NASDAQ:CRWD,,nvstly,,CYBERSECURITY
+have,NMS,CSCO,NASDAQ:CSCO,,nvstly,,DATA-CENTER NETWORKING & INTERCONNECT SILICON & SYSTEMS
+have,NMS,CSX,NASDAQ:CSX,,nvstly,,FREIGHT RAILROADS
+have,NMS,DDOG,NASDAQ:DDOG,,nvstly,,DATA PLATFORMS & ANALYTICS & OBSERVABILITY SOFTWARE
+have,NMS,EBAY,NASDAQ:EBAY,,nvstly,,E-COMMERCE MARKETPLACES & ECOSYSTEMS
+have,NMS,EDIT,NASDAQ:EDIT,,nvstly,,GENE-EDITING THERAPEUTICS
+have,NMS,EQIX,NASDAQ:EQIX,,nvstly,,DATA CENTER REITS
+have,NMS,EXPE,NASDAQ:EXPE,,nvstly,,ONLINE TRAVEL PLATFORMS
+have,NMS,FISV,NASDAQ:FISV,,nvstly,,MERCHANT ACQUIRING & DIGITAL PAYMENTS
+have,NMS,FLEX,NASDAQ:FLEX,,nvstly,,ELECTRONICS MANUFACTURING SERVICES & CLOUD ODMS
+have,NMS,FLNC,NASDAQ:FLNC,,nvstly,,NOT BENCHMARKED
+have,NMS,FTNT,NASDAQ:FTNT,,nvstly,,CYBERSECURITY
+have,NMS,GEHC,NASDAQ:GEHC,,nvstly,,DIAGNOSTIC IMAGING & PATIENT-MONITORING EQUIPMENT
+have,NMS,GILD,NASDAQ:GILD,,nvstly,,COMMERCIAL-STAGE BIOTECH & SPECIALTY BIOPHARMA
+have,NMS,GLPI,NASDAQ:GLPI,,nvstly,,GAMING & EXPERIENTIAL REITS
+have,NMS,GOOGL,NASDAQ:GOOGL,,nvstly,,HYPERSCALE CLOUD PLATFORMS
+have,NMS,HON,NASDAQ:HON,,nvstly,,DIVERSIFIED INDUSTRIALS & ENGINEERED COMPONENTS
+have,NMS,HOOD,NASDAQ:HOOD,,nvstly,,BROKERAGE & INVESTING PLATFORMS
+have,NMS,IBKR,NASDAQ:IBKR,,nvstly,,BROKERAGE & INVESTING PLATFORMS
+have,NMS,ICLR,NASDAQ:ICLR,,nvstly,,CRO & CLINICAL-DEVELOPMENT SERVICES
+have,NMS,ILMN,NASDAQ:ILMN,,nvstly,,LIFE-SCIENCE TOOLS & SEQUENCING & DIAGNOSTIC PLATFORMS
+have,NMS,INTC,NASDAQ:INTC,,nvstly,,AI COMPUTE & PROCESSOR & ACCELERATOR SILICON
+have,NMS,INTU,NASDAQ:INTU,,nvstly,,ENTERPRISE APPLICATIONS & WORKFLOW SOFTWARE
+have,NMS,IREN,NASDAQ:IREN,,nvstly,,AI CLOUD INFRASTRUCTURE & NEOCLOUDS
+have,NMS,ISRG,NASDAQ:ISRG,,nvstly,,SURGICAL SYSTEMS & ORTHOPEDIC DEVICES
+have,NMS,JBSS,NASDAQ:JBSS,,nvstly,,PACKAGED FOODS
+have,NMS,JD,NASDAQ:JD,,nvstly,,CHINA INTERNET PLATFORMS
+have,NMS,KDP,NASDAQ:KDP,,nvstly,,NON-ALCOHOLIC BEVERAGES & SNACKS
+have,NMS,KLAC,NASDAQ:KLAC,,nvstly,,GLOBAL SEMICONDUCTOR EQUIPMENT
+have,NMS,LI,NASDAQ:LI,,nvstly,,EV MANUFACTURERS
+have,NMS,LIN,NASDAQ:LIN,,nvstly,,INDUSTRIAL GASES
+have,NMS,LITE,NASDAQ:LITE,,nvstly,,OPTICAL NETWORKING & PHOTONICS
+have,NMS,LRCX,NASDAQ:LRCX,,nvstly,,GLOBAL SEMICONDUCTOR EQUIPMENT
+have,NMS,MAR,NASDAQ:MAR,,nvstly,,HOTELS & LODGING
+have,NMS,MCHP,NASDAQ:MCHP,,nvstly,,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+have,NMS,MDLZ,NASDAQ:MDLZ,,nvstly,,PACKAGED FOODS
+have,NMS,MEDP,NASDAQ:MEDP,,nvstly,,CRO & CLINICAL-DEVELOPMENT SERVICES
+have,NMS,MELI,NASDAQ:MELI,,nvstly,,E-COMMERCE MARKETPLACES & ECOSYSTEMS
+have,NMS,META,NASDAQ:META,,nvstly,,DIGITAL ADVERTISING & SOCIAL PLATFORMS
+have,NMS,MNST,NASDAQ:MNST,,nvstly,,NON-ALCOHOLIC BEVERAGES & SNACKS
+have,NMS,MRAM,NASDAQ:MRAM,,nvstly,,NOT BENCHMARKED
+have,NMS,MRVL,NASDAQ:MRVL,,nvstly,,DATA-CENTER NETWORKING & INTERCONNECT SILICON & SYSTEMS
+have,NMS,MSFT,NASDAQ:MSFT,,nvstly,,HYPERSCALE CLOUD PLATFORMS
+have,NMS,MU,NASDAQ:MU,,nvstly,,COMMODITY MEMORY MANUFACTURERS
+have,NMS,NBIS,NASDAQ:NBIS,,nvstly,,AI CLOUD INFRASTRUCTURE & NEOCLOUDS
+have,NMS,NDAQ,NASDAQ:NDAQ,,nvstly,,EXCHANGES & MARKET INFRASTRUCTURE
+have,NMS,NEXT,NASDAQ:NEXT,,nvstly,,LNG LIQUEFACTION & EXPORT
+have,NMS,NFLX,NASDAQ:NFLX,,nvstly,,GLOBAL MEDIA & STREAMING
+have,NMS,NTES,NASDAQ:NTES,,nvstly,,GAMING & INTERACTIVE ENTERTAINMENT
+have,NMS,NTLA,NASDAQ:NTLA,,nvstly,,GENE-EDITING THERAPEUTICS
+have,NMS,NVDA,NASDAQ:NVDA,,nvstly,,AI COMPUTE & PROCESSOR & ACCELERATOR SILICON
+have,NMS,NXPI,NASDAQ:NXPI,,nvstly,,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+have,NMS,ON,NASDAQ:ON,,nvstly,,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+have,NMS,PACB,NASDAQ:PACB,,nvstly,,LIFE-SCIENCE TOOLS & SEQUENCING & DIAGNOSTIC PLATFORMS
+have,NMS,PANW,NASDAQ:PANW,,nvstly,,CYBERSECURITY
+have,NMS,PCAR,NASDAQ:PCAR,,nvstly,,COMMERCIAL VEHICLES & HEAVY TRUCKS
+have,NMS,PDD,NASDAQ:PDD,,nvstly,,CHINA INTERNET PLATFORMS
+have,NMS,PEP,NASDAQ:PEP,,nvstly,,NON-ALCOHOLIC BEVERAGES & SNACKS
+have,NMS,PLTR,NASDAQ:PLTR,,nvstly,,DATA PLATFORMS & ANALYTICS & OBSERVABILITY SOFTWARE
+have,NMS,POWL,NASDAQ:POWL,,nvstly,,DATA-CENTER ELECTRICAL & THERMAL INFRASTRUCTURE
+have,NMS,PYPL,NASDAQ:PYPL,,nvstly,,MERCHANT ACQUIRING & DIGITAL PAYMENTS
+have,NMS,QBTS,NASDAQ:QBTS,,nvstly,,QUANTUM COMPUTING & SENSING
+have,NMS,QCOM,NASDAQ:QCOM,,nvstly,,AI COMPUTE & PROCESSOR & ACCELERATOR SILICON
+have,NMS,QS,NASDAQ:QS,,nvstly,,NEXT-GENERATION & SOLID-STATE BATTERY DEVELOPERS
+have,NMS,REG,NASDAQ:REG,,nvstly,,RETAIL REITS
+have,NMS,REGN,NASDAQ:REGN,,nvstly,,COMMERCIAL-STAGE BIOTECH & SPECIALTY BIOPHARMA
+have,NMS,RGLD,NASDAQ:RGLD,,nvstly,,PRECIOUS-METALS STREAMING & ROYALTIES
+have,NMS,RGTI,NASDAQ:RGTI,,nvstly,,QUANTUM COMPUTING & SENSING
+have,NMS,RKLB,NASDAQ:RKLB,,nvstly,,COMMERCIAL SPACE & LAUNCH SYSTEMS
+have,NMS,RXRX,NASDAQ:RXRX,,nvstly,,AI & COMPUTATIONAL DRUG DISCOVERY
+have,NMS,SBAC,NASDAQ:SBAC,,nvstly,,CELL TOWER INFRASTRUCTURE
+have,NMS,SBUX,NASDAQ:SBUX,,nvstly,,QUICK-SERVICE RESTAURANTS & COFFEE
+have,NMS,SDGR,NASDAQ:SDGR,,nvstly,,AI & COMPUTATIONAL DRUG DISCOVERY
+have,NMS,SLDP,NASDAQ:SLDP,,nvstly,,NEXT-GENERATION & SOLID-STATE BATTERY DEVELOPERS
+have,NMS,SMCI,NASDAQ:SMCI,,nvstly,,ENTERPRISE & AI SERVER SYSTEMS
+have,NMS,SNPS,NASDAQ:SNPS,,nvstly,,EDA & ENGINEERING SOFTWARE
+have,NMS,SNY,NASDAQ:SNY,,nvstly,,GLOBAL LARGE-CAP PHARMACEUTICALS
+have,NMS,SOFI,NASDAQ:SOFI,,nvstly,,DIGITAL-FIRST BANKS
+have,NMS,STLD,NASDAQ:STLD,,nvstly,,STEEL PRODUCERS
+have,NMS,STX,NASDAQ:STX,,nvstly,,DATA STORAGE DEVICES
+have,NMS,SYM,NASDAQ:SYM,,nvstly,,WAREHOUSE AUTOMATION & ROBOTICS
+have,NMS,TCOM,NASDAQ:TCOM,,nvstly,,ONLINE TRAVEL PLATFORMS
+have,NMS,TEAM,NASDAQ:TEAM,,nvstly,,ENTERPRISE APPLICATIONS & WORKFLOW SOFTWARE
+have,NMS,TER,NASDAQ:TER,,nvstly,,SEMICONDUCTOR TEST EQUIPMENT & INTERFACES
+have,NMS,TLN,NASDAQ:TLN,,nvstly,,COMPETITIVE POWER GENERATORS
+have,NMS,TMUS,NASDAQ:TMUS,,nvstly,,TELECOM OPERATORS
+have,NMS,TPG,NASDAQ:TPG,,nvstly,,ALTERNATIVE ASSET MANAGERS
+have,NMS,TROW,NASDAQ:TROW,,nvstly,,TRADITIONAL ASSET MANAGERS
+have,NMS,TSLA,NASDAQ:TSLA,,nvstly,,EV MANUFACTURERS
+have,NMS,TTWO,NASDAQ:TTWO,,nvstly,,GAMING & INTERACTIVE ENTERTAINMENT
+have,NMS,TXN,NASDAQ:TXN,,nvstly,,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+have,NMS,VRTX,NASDAQ:VRTX,,nvstly,,COMMERCIAL-STAGE BIOTECH & SPECIALTY BIOPHARMA
+have,NMS,WBD,NASDAQ:WBD,,nvstly,,GLOBAL MEDIA & STREAMING
+have,NMS,WDAY,NASDAQ:WDAY,,nvstly,,ENTERPRISE APPLICATIONS & WORKFLOW SOFTWARE
+have,NMS,WDC,NASDAQ:WDC,,nvstly,,DATA STORAGE DEVICES
+have,NMS,WMT,NASDAQ:WMT,,nvstly,,FOOD & GENERAL-MERCHANDISE RETAIL
+have,NMS,ZS,NASDAQ:ZS,,nvstly,,CYBERSECURITY
+have,NYQ,A,NYSE:A,,nvstly,,LIFE-SCIENCE TOOLS & SEQUENCING & DIAGNOSTIC PLATFORMS
+have,NYQ,AA,NYSE:AA,,nvstly,,ALUMINUM PRODUCERS
+have,NYQ,ABBV,NYSE:ABBV,,nvstly,,GLOBAL LARGE-CAP PHARMACEUTICALS
+have,NYQ,ABT,NYSE:ABT,,nvstly,,CARDIOVASCULAR & INTERVENTIONAL DEVICES
+have,NYQ,ACN,NYSE:ACN,,nvstly,,IT SERVICES & SYSTEMS INTEGRATION
+have,NYQ,ADC,NYSE:ADC,,nvstly,,NET LEASE REITS
+have,NYQ,AGCO,NYSE:AGCO,,nvstly,,AGRICULTURE EQUIPMENT
+have,NYQ,AIG,NYSE:AIG,,nvstly,,LIFE & MULTILINE INSURERS
+have,NYQ,AJG,NYSE:AJG,,nvstly,,INSURANCE BROKERS
+have,NYQ,ALB,NYSE:ALB,,nvstly,,LITHIUM PRODUCERS
+have,NYQ,ALL,NYSE:ALL,,nvstly,,PROPERTY & CASUALTY INSURERS
+have,NYQ,AMT,NYSE:AMT,,nvstly,,CELL TOWER INFRASTRUCTURE
+have,NYQ,ANET,NYSE:ANET,,nvstly,,DATA-CENTER NETWORKING & INTERCONNECT SILICON & SYSTEMS
+have,NYQ,AON,NYSE:AON,,nvstly,,INSURANCE BROKERS
+have,NYQ,APD,NYSE:APD,,nvstly,,INDUSTRIAL GASES
+have,NYQ,APH,NYSE:APH,,nvstly,,ELECTRONIC INTERCONNECT COMPONENTS
+have,NYQ,APO,NYSE:APO,,nvstly,,ALTERNATIVE ASSET MANAGERS
+have,NYQ,ARE,NYSE:ARE,,nvstly,,NOT BENCHMARKED
+have,NYQ,ARES,NYSE:ARES,,nvstly,,ALTERNATIVE ASSET MANAGERS
+have,NYQ,ASX,NYSE:ASX,,nvstly,,OSAT & ADVANCED PACKAGING
+have,NYQ,AWK,NYSE:AWK,,nvstly,,WATER UTILITIES
+have,NYQ,AXP,NYSE:AXP,,nvstly,,PAYMENT NETWORKS
+have,NYQ,B,NYSE:B,,nvstly,,GOLD MINERS
+have,NYQ,BA,NYSE:BA,,nvstly,,COMMERCIAL AIRCRAFT OEMS
+have,NYQ,BABA,NYSE:BABA,,nvstly,,CHINA INTERNET PLATFORMS
+have,NYQ,BAC,NYSE:BAC,,nvstly,,US MONEY-CENTER BANKS
+have,NYQ,BEN,NYSE:BEN,,nvstly,,TRADITIONAL ASSET MANAGERS
+have,NYQ,BHP,NYSE:BHP,,nvstly,,DIVERSIFIED MINERS
+have,NYQ,BLK,NYSE:BLK,,nvstly,,TRADITIONAL ASSET MANAGERS
+have,NYQ,BMY,NYSE:BMY,,nvstly,,GLOBAL LARGE-CAP PHARMACEUTICALS
+have,NYQ,BSX,NYSE:BSX,,nvstly,,CARDIOVASCULAR & INTERVENTIONAL DEVICES
+have,NYQ,BWXT,NYSE:BWXT,,nvstly,,NOT BENCHMARKED
+have,NYQ,BX,NYSE:BX,,nvstly,,ALTERNATIVE ASSET MANAGERS
+have,NYQ,BXMT,NYSE:BXMT,,nvstly,,COMMERCIAL MORTGAGE REITS
+have,NYQ,BXP,NYSE:BXP,,nvstly,,OFFICE REITS
+have,NYQ,C,NYSE:C,,nvstly,,US MONEY-CENTER BANKS
+have,NYQ,CAT,NYSE:CAT,,nvstly,,CONSTRUCTION & MINING EQUIPMENT
+have,NYQ,CB,NYSE:CB,,nvstly,,PROPERTY & CASUALTY INSURERS
+have,NYQ,CCI,NYSE:CCI,,nvstly,,CELL TOWER INFRASTRUCTURE
+have,NYQ,CCJ,NYSE:CCJ,,nvstly,,URANIUM MINERS
+have,NYQ,CF,NYSE:CF,,nvstly,,FERTILIZERS
+have,NYQ,CI,NYSE:CI,,nvstly,,MANAGED CARE & HEALTH INSURERS
+have,NYQ,CIEN,NYSE:CIEN,,nvstly,,OPTICAL NETWORKING & PHOTONICS
+have,NYQ,COHR,NYSE:COHR,,nvstly,,OPTICAL NETWORKING & PHOTONICS
+have,NYQ,COP,NYSE:COP,,nvstly,,UPSTREAM OIL & GAS E & P
+have,NYQ,CPNG,NYSE:CPNG,,nvstly,,E-COMMERCE MARKETPLACES & ECOSYSTEMS
+have,NYQ,CRH,NYSE:CRH,,nvstly,,CEMENT & AGGREGATES
+have,NYQ,CRM,NYSE:CRM,,nvstly,,ENTERPRISE APPLICATIONS & WORKFLOW SOFTWARE
+have,NYQ,CUBE,NYSE:CUBE,,nvstly,,SELF-STORAGE REITS
+have,NYQ,CVX,NYSE:CVX,,nvstly,,GLOBAL INTEGRATED OIL & GAS
+have,NYQ,DE,NYSE:DE,,nvstly,,AGRICULTURE EQUIPMENT
+have,NYQ,DELL,NYSE:DELL,,nvstly,,ENTERPRISE & AI SERVER SYSTEMS
+have,NYQ,DGX,NYSE:DGX,,nvstly,,CLINICAL LABORATORY SERVICES
+have,NYQ,DHR,NYSE:DHR,,nvstly,,LIFE-SCIENCE TOOLS & SEQUENCING & DIAGNOSTIC PLATFORMS
+have,NYQ,DIS,NYSE:DIS,,nvstly,,GLOBAL MEDIA & STREAMING
+have,NYQ,DLR,NYSE:DLR,,nvstly,,DATA CENTER REITS
+have,NYQ,DOC,NYSE:DOC,,nvstly,,HEALTHCARE REITS
+have,NYQ,DOW,NYSE:DOW,,nvstly,,DIVERSIFIED & SPECIALTY CHEMICALS
+have,NYQ,DUK,NYSE:DUK,,nvstly,,US REGULATED ELECTRIC UTILITIES
+have,NYQ,EL,NYSE:EL,,nvstly,,BEAUTY & COSMETICS
+have,NYQ,ELV,NYSE:ELV,,nvstly,,MANAGED CARE & HEALTH INSURERS
+have,NYQ,EMR,NYSE:EMR,,nvstly,,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+have,NYQ,ENR,NYSE:ENR,,nvstly,,NOT BENCHMARKED
+have,NYQ,EOG,NYSE:EOG,,nvstly,,UPSTREAM OIL & GAS E & P
+have,NYQ,EPR,NYSE:EPR,,nvstly,,GAMING & EXPERIENTIAL REITS
+have,NYQ,EPRT,NYSE:EPRT,,nvstly,,NET LEASE REITS
+have,NYQ,ESS,NYSE:ESS,,nvstly,,RESIDENTIAL REITS
+have,NYQ,ETN,NYSE:ETN,,nvstly,,ELECTRICAL COMPONENTS & BUILDING SYSTEMS
+have,NYQ,ETSY,NYSE:ETSY,,nvstly,,E-COMMERCE MARKETPLACES & ECOSYSTEMS
+have,NYQ,EW,NYSE:EW,,nvstly,,CARDIOVASCULAR & INTERVENTIONAL DEVICES
+have,NYQ,EXR,NYSE:EXR,,nvstly,,SELF-STORAGE REITS
+have,NYQ,FCX,NYSE:FCX,,nvstly,,COPPER MINERS
+have,NYQ,FDX,NYSE:FDX,,nvstly,,PARCEL & EXPRESS LOGISTICS
+have,NYQ,FNV,NYSE:FNV,,nvstly,,PRECIOUS-METALS STREAMING & ROYALTIES
+have,NYQ,FOUR,NYSE:FOUR,,nvstly,,MERCHANT ACQUIRING & DIGITAL PAYMENTS
+have,NYQ,FR,NYSE:FR,,nvstly,,INDUSTRIAL & LOGISTICS REITS
+have,NYQ,FRT,NYSE:FRT,,nvstly,,RETAIL REITS
+have,NYQ,GE,NYSE:GE,,nvstly,,COMMERCIAL AEROSPACE ENGINES & SYSTEMS
+have,NYQ,GEV,NYSE:GEV,,nvstly,,POWER GENERATION & GRID EQUIPMENT
+have,NYQ,GPN,NYSE:GPN,,nvstly,,MERCHANT ACQUIRING & DIGITAL PAYMENTS
+have,NYQ,GS,NYSE:GS,,nvstly,,INVESTMENT BANKS
+have,NYQ,HAL,NYSE:HAL,,nvstly,,OILFIELD SERVICES & EQUIPMENT
+have,NYQ,HCA,NYSE:HCA,,nvstly,,HOSPITALS & ACUTE-CARE OPERATORS
+have,NYQ,HLT,NYSE:HLT,,nvstly,,HOTELS & LODGING
+have,NYQ,HPE,NYSE:HPE,,nvstly,,ENTERPRISE & AI SERVER SYSTEMS
+have,NYQ,HUBB,NYSE:HUBB,,nvstly,,ELECTRICAL COMPONENTS & BUILDING SYSTEMS
+have,NYQ,HUM,NYSE:HUM,,nvstly,,MANAGED CARE & HEALTH INSURERS
+have,NYQ,IBM,NYSE:IBM,,nvstly,,IT SERVICES & SYSTEMS INTEGRATION
+have,NYQ,ICE,NYSE:ICE,,nvstly,,EXCHANGES & MARKET INFRASTRUCTURE
+have,NYQ,IONQ,NYSE:IONQ,,nvstly,,QUANTUM COMPUTING & SENSING
+have,NYQ,IQV,NYSE:IQV,,nvstly,,CRO & CLINICAL-DEVELOPMENT SERVICES
+have,NYQ,IRM,NYSE:IRM,,nvstly,,DATA CENTER REITS
+have,NYQ,ITW,NYSE:ITW,,nvstly,,DIVERSIFIED INDUSTRIALS & ENGINEERED COMPONENTS
+have,NYQ,IVZ,NYSE:IVZ,,nvstly,,TRADITIONAL ASSET MANAGERS
+have,NYQ,JBL,NYSE:JBL,,nvstly,,ELECTRONICS MANUFACTURING SERVICES & CLOUD ODMS
+have,NYQ,JNJ,NYSE:JNJ,,nvstly,,GLOBAL LARGE-CAP PHARMACEUTICALS
+have,NYQ,JPM,NYSE:JPM,,nvstly,,US MONEY-CENTER BANKS
+have,NYQ,KIM,NYSE:KIM,,nvstly,,RETAIL REITS
+have,NYQ,KKR,NYSE:KKR,,nvstly,,ALTERNATIVE ASSET MANAGERS
+have,NYQ,KMI,NYSE:KMI,,nvstly,,NORTH AMERICAN MIDSTREAM PIPELINES
+have,NYQ,KO,NYSE:KO,,nvstly,,NON-ALCOHOLIC BEVERAGES & SNACKS
+have,NYQ,KRC,NYSE:KRC,,nvstly,,OFFICE REITS
+have,NYQ,LADR,NYSE:LADR,,nvstly,,COMMERCIAL MORTGAGE REITS
+have,NYQ,LCII,NYSE:LCII,,nvstly,,RECREATIONAL VEHICLES & COMPONENTS
+have,NYQ,LEU,NYSE:LEU,,nvstly,,NOT BENCHMARKED
+have,NYQ,LH,NYSE:LH,,nvstly,,CLINICAL LABORATORY SERVICES
+have,NYQ,LHX,NYSE:LHX,,nvstly,,DEFENSE PRIMES & MISSION SYSTEMS
+have,NYQ,LLY,NYSE:LLY,,nvstly,,GLOBAL LARGE-CAP PHARMACEUTICALS
+have,NYQ,LMT,NYSE:LMT,,nvstly,,DEFENSE PRIMES & MISSION SYSTEMS
+have,NYQ,LNG,NYSE:LNG,,nvstly,,LNG LIQUEFACTION & EXPORT
+have,NYQ,MA,NYSE:MA,,nvstly,,PAYMENT NETWORKS
+have,NYQ,MCD,NYSE:MCD,,nvstly,,QUICK-SERVICE RESTAURANTS & COFFEE
+have,NYQ,MDT,NYSE:MDT,,nvstly,,CARDIOVASCULAR & INTERVENTIONAL DEVICES
+have,NYQ,MET,NYSE:MET,,nvstly,,LIFE & MULTILINE INSURERS
+have,NYQ,MOD,NYSE:MOD,,nvstly,,DATA-CENTER ELECTRICAL & THERMAL INFRASTRUCTURE
+have,NYQ,MOS,NYSE:MOS,,nvstly,,FERTILIZERS
+have,NYQ,MP,NYSE:MP,,nvstly,,RARE-EARTH PRODUCERS & PROCESSORS
+have,NYQ,MPC,NYSE:MPC,,nvstly,,REFINING & MARKETING
+have,NYQ,MRK,NYSE:MRK,,nvstly,,GLOBAL LARGE-CAP PHARMACEUTICALS
+have,NYQ,MS,NYSE:MS,,nvstly,,INVESTMENT BANKS
+have,NYQ,NEE,NYSE:NEE,,nvstly,,US REGULATED ELECTRIC UTILITIES
+have,NYQ,NIO,NYSE:NIO,,nvstly,,EV MANUFACTURERS
+have,NYQ,NKE,NYSE:NKE,,nvstly,,ATHLETIC FOOTWEAR & APPAREL
+have,NYQ,NLY,NYSE:NLY,,nvstly,,AGENCY MORTGAGE REITS
+have,NYQ,NNN,NYSE:NNN,,nvstly,,NET LEASE REITS
+have,NYQ,NOC,NYSE:NOC,,nvstly,,DEFENSE PRIMES & MISSION SYSTEMS
+have,NYQ,NOW,NYSE:NOW,,nvstly,,ENTERPRISE APPLICATIONS & WORKFLOW SOFTWARE
+have,NYQ,NRG,NYSE:NRG,,nvstly,,COMPETITIVE POWER GENERATORS
+have,NYQ,NSC,NYSE:NSC,,nvstly,,FREIGHT RAILROADS
+have,NYQ,NTR,NYSE:NTR,,nvstly,,FERTILIZERS
+have,NYQ,NU,NYSE:NU,,nvstly,,DIGITAL-FIRST BANKS
+have,NYQ,NUE,NYSE:NUE,,nvstly,,STEEL PRODUCERS
+have,NYQ,NVO,NYSE:NVO,,nvstly,,GLOBAL LARGE-CAP PHARMACEUTICALS
+have,NYQ,NVT,NYSE:NVT,,nvstly,,DATA-CENTER ELECTRICAL & THERMAL INFRASTRUCTURE
+have,NYQ,O,NYSE:O,,nvstly,,NET LEASE REITS
+have,NYQ,OHI,NYSE:OHI,,nvstly,,HEALTHCARE REITS
+have,NYQ,OKLO,NYSE:OKLO,,nvstly,,ADVANCED NUCLEAR & SMR DEVELOPERS
+have,NYQ,OMC,NYSE:OMC,,nvstly,,ADVERTISING & MARKETING AGENCIES
+have,NYQ,ORCL,NYSE:ORCL,,nvstly,,ENTERPRISE APPLICATIONS & WORKFLOW SOFTWARE
+have,NYQ,OTIS,NYSE:OTIS,,nvstly,,ELEVATORS & ESCALATORS
+have,NYQ,OWL,NYSE:OWL,,nvstly,,ALTERNATIVE ASSET MANAGERS
+have,NYQ,PFE,NYSE:PFE,,nvstly,,GLOBAL LARGE-CAP PHARMACEUTICALS
+have,NYQ,PG,NYSE:PG,,nvstly,,HOUSEHOLD & PERSONAL CARE
+have,NYQ,PGR,NYSE:PGR,,nvstly,,PROPERTY & CASUALTY INSURERS
+have,NYQ,PH,NYSE:PH,,nvstly,,DIVERSIFIED INDUSTRIALS & ENGINEERED COMPONENTS
+have,NYQ,PINS,NYSE:PINS,,nvstly,,DIGITAL ADVERTISING & SOCIAL PLATFORMS
+have,NYQ,PLD,NYSE:PLD,,nvstly,,INDUSTRIAL & LOGISTICS REITS
+have,NYQ,PPG,NYSE:PPG,,nvstly,,PAINTS & COATINGS
+have,NYQ,PRU,NYSE:PRU,,nvstly,,LIFE & MULTILINE INSURERS
+have,NYQ,PSX,NYSE:PSX,,nvstly,,REFINING & MARKETING
+have,NYQ,QSR,NYSE:QSR,,nvstly,,QUICK-SERVICE RESTAURANTS & COFFEE
+have,NYQ,RACE,NYSE:RACE,,nvstly,,PREMIUM & LUXURY AUTOMAKERS
+have,NYQ,RBLX,NYSE:RBLX,,nvstly,,GAMING & INTERACTIVE ENTERTAINMENT
+have,NYQ,REXR,NYSE:REXR,,nvstly,,INDUSTRIAL & LOGISTICS REITS
+have,NYQ,RIO,NYSE:RIO,,nvstly,,DIVERSIFIED MINERS
+have,NYQ,ROK,NYSE:ROK,,nvstly,,INDUSTRIAL AUTOMATION CONTROLS & ROBOTICS
+have,NYQ,RSG,NYSE:RSG,,nvstly,,WASTE MANAGEMENT & ENVIRONMENTAL SERVICES
+have,NYQ,RTX,NYSE:RTX,,nvstly,,COMMERCIAL AEROSPACE ENGINES & SYSTEMS
+have,NYQ,S,NYSE:S,,nvstly,,CYBERSECURITY
+have,NYQ,SAP,NYSE:SAP,,nvstly,,ENTERPRISE APPLICATIONS & WORKFLOW SOFTWARE
+have,NYQ,SCCO,NYSE:SCCO,,nvstly,,COPPER MINERS
+have,NYQ,SCHW,NYSE:SCHW,,nvstly,,BROKERAGE & INVESTING PLATFORMS
+have,NYQ,SE,NYSE:SE,,nvstly,,E-COMMERCE MARKETPLACES & ECOSYSTEMS
+have,NYQ,SES,NYSE:SES,,nvstly,,NEXT-GENERATION & SOLID-STATE BATTERY DEVELOPERS
+have,NYQ,SHW,NYSE:SHW,,nvstly,,PAINTS & COATINGS
+have,NYQ,SLB,NYSE:SLB,,nvstly,,OILFIELD SERVICES & EQUIPMENT
+have,NYQ,SLG,NYSE:SLG,,nvstly,,OFFICE REITS
+have,NYQ,SMR,NYSE:SMR,,nvstly,,ADVANCED NUCLEAR & SMR DEVELOPERS
+have,NYQ,SNAP,NYSE:SNAP,,nvstly,,DIGITAL ADVERTISING & SOCIAL PLATFORMS
+have,NYQ,SNOW,NYSE:SNOW,,nvstly,,DATA PLATFORMS & ANALYTICS & OBSERVABILITY SOFTWARE
+have,NYQ,SO,NYSE:SO,,nvstly,,US REGULATED ELECTRIC UTILITIES
+have,NYQ,SONY,NYSE:SONY,,nvstly,,CONSUMER ELECTRONICS & SMART DEVICES
+have,NYQ,SPG,NYSE:SPG,,nvstly,,RETAIL REITS
+have,NYQ,SQM,NYSE:SQM,,nvstly,,LITHIUM PRODUCERS
+have,NYQ,STAG,NYSE:STAG,,nvstly,,INDUSTRIAL & LOGISTICS REITS
+have,NYQ,STM,NYSE:STM,,nvstly,,ANALOG & EMBEDDED & POWER SEMICONDUCTORS
+have,NYQ,SYK,NYSE:SYK,,nvstly,,SURGICAL SYSTEMS & ORTHOPEDIC DEVICES
+have,NYQ,T,NYSE:T,,nvstly,,TELECOM OPERATORS
+have,NYQ,TEL,NYSE:TEL,,nvstly,,ELECTRONIC INTERCONNECT COMPONENTS
+have,NYQ,TGT,NYSE:TGT,,nvstly,,FOOD & GENERAL-MERCHANDISE RETAIL
+have,NYQ,THC,NYSE:THC,,nvstly,,HOSPITALS & ACUTE-CARE OPERATORS
+have,NYQ,THO,NYSE:THO,,nvstly,,RECREATIONAL VEHICLES & COMPONENTS
+have,NYQ,TM,NYSE:TM,,nvstly,,DIVERSIFIED MASS-MARKET AUTO OEMS
+have,NYQ,TMO,NYSE:TMO,,nvstly,,LIFE-SCIENCE TOOLS & SEQUENCING & DIAGNOSTIC PLATFORMS
+have,NYQ,TRV,NYSE:TRV,,nvstly,,PROPERTY & CASUALTY INSURERS
+have,NYQ,TSM,NYSE:TSM,,nvstly,,PURE-PLAY SEMICONDUCTOR FOUNDRIES
+have,NYQ,UHS,NYSE:UHS,,nvstly,,HOSPITALS & ACUTE-CARE OPERATORS
+have,NYQ,UMC,NYSE:UMC,,nvstly,,PURE-PLAY SEMICONDUCTOR FOUNDRIES
+have,NYQ,UNH,NYSE:UNH,,nvstly,,MANAGED CARE & HEALTH INSURERS
+have,NYQ,UNP,NYSE:UNP,,nvstly,,FREIGHT RAILROADS
+have,NYQ,UPS,NYSE:UPS,,nvstly,,PARCEL & EXPRESS LOGISTICS
+have,NYQ,V,NYSE:V,,nvstly,,PAYMENT NETWORKS
+have,NYQ,VALE,NYSE:VALE,,nvstly,,DIVERSIFIED MINERS
+have,NYQ,VG,NYSE:VG,,nvstly,,LNG LIQUEFACTION & EXPORT
+have,NYQ,VICI,NYSE:VICI,,nvstly,,GAMING & EXPERIENTIAL REITS
+have,NYQ,VLO,NYSE:VLO,,nvstly,,REFINING & MARKETING
+have,NYQ,VRT,NYSE:VRT,,nvstly,,DATA-CENTER ELECTRICAL & THERMAL INFRASTRUCTURE
+have,NYQ,VST,NYSE:VST,,nvstly,,COMPETITIVE POWER GENERATORS
+have,NYQ,VZ,NYSE:VZ,,nvstly,,TELECOM OPERATORS
+have,NYQ,WELL,NYSE:WELL,,nvstly,,HEALTHCARE REITS
+have,NYQ,WFC,NYSE:WFC,,nvstly,,US MONEY-CENTER BANKS
+have,NYQ,WGO,NYSE:WGO,,nvstly,,RECREATIONAL VEHICLES & COMPONENTS
+have,NYQ,WM,NYSE:WM,,nvstly,,WASTE MANAGEMENT & ENVIRONMENTAL SERVICES
+have,NYQ,WMB,NYSE:WMB,,nvstly,,NORTH AMERICAN MIDSTREAM PIPELINES
+have,NYQ,WTRG,NYSE:WTRG,,nvstly,,WATER UTILITIES
+have,NYQ,XOM,NYSE:XOM,,nvstly,,GLOBAL INTEGRATED OIL & GAS
+have,NYQ,XPEV,NYSE:XPEV,,nvstly,,EV MANUFACTURERS
+have,NYQ,XYZ,NYSE:XYZ,,nvstly,,MERCHANT ACQUIRING & DIGITAL PAYMENTS
+have,NYQ,YUMC,NYSE:YUMC,,nvstly,,QUICK-SERVICE RESTAURANTS & COFFEE
+have,NYQ,ZBH,NYSE:ZBH,,nvstly,,SURGICAL SYSTEMS & ORTHOPEDIC DEVICES
